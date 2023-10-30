@@ -1,19 +1,21 @@
 # OSCPoint -  an OSC API for PowerPoint
 
 > [!WARNING]
-> OSCPoint is still under active development, and has not reached a beta-stage yet. Do not use on production systems.
+> OSCPoint is still under active development, and has not reached a beta-stage yet. 
+> 
+> **Do not use on production systems.**
 >
-> If you give this a go, please share freedback and issues using the issue tracker on GitHub.
+> If you give this a go, please share your feedback and issues using the [issue tracker on GitHub](https://github.com/phuvf/oscpoint/issues).
 >
 > OSCPoint will need a BitFocus Companion module to accompany it. This is not available yet - if you'd like to start developing one, get in touch!
 
-OSCPoint is a PowerPoint add-in that allows OSC control of PowerPoint on Windows. It's primarily designed to be used with BitFocus Companion, but should work with any OSC client that can send and receive OSC messages over UDP.
+OSCPoint is a PowerPoint add-in that allows Open Sound Control (OSC) control of PowerPoint on Windows. It's primarily designed to be used with BitFocus Companion, but should work with any OSC client that can send and receive OSC messages over UDP.
 
 It's designed to be used with PowerPoint 2016 or later, but may work with earlier versions.
 
 ## Support
 
-OSCPoint is developed by [Nick Roberts](https://github.com/phuvf/phuvf). My day job is head of development for [OctoCue](https://octocue.com), so the OSCPoint PowerPoint add-in uses OctoCue's code signing certificate.
+OSCPoint is developed by [Nick Roberts](https://github.com/phuvf). My day job is head of development for [OctoCue](https://octocue.com), so the OSCPoint PowerPoint add-in uses OctoCue's code signing certificate (in exchange for a bit of brand exposure).
 
 If you have questions or find bugs please use the [issue tracker on GitHub](https://github.com/phuvf/oscpoint/issues).
 
@@ -22,6 +24,8 @@ For feature requests, please check the [Roadmap](#roadmap) section below, and if
 If you find this project useful, consider buying me a coffee:
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/X8X073GQ3)
+
+I'm always looking for interesting ideas to work on - check out my [GitHub profile](https://github.com/phuvf) to see if I might be a good match your your project.
 
 ## Capabilites and limitations
 
