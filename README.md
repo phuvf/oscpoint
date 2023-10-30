@@ -7,7 +7,7 @@
 >
 > If you give this a go, please share your feedback and issues using the [issue tracker on GitHub](https://github.com/phuvf/oscpoint/issues).
 >
-> OSCPoint will need a BitFocus Companion module to accompany it. This is not available yet - if you'd like to start developing one, get in touch!
+> OSCPoint will eventually need a BitFocus Companion module to accompany it. This is not available yet - if you'd like to start developing one, get in touch!
 
 OSCPoint is a PowerPoint add-in that allows Open Sound Control (OSC) control of PowerPoint on Windows. It's primarily designed to be used with BitFocus Companion, but should work with any OSC client that can send and receive OSC messages over UDP.
 
@@ -45,7 +45,7 @@ OSCPoint is not:
 
 This COM add-in for PowerPoint requires some supporting frameworks, including:
 
-- Microsoft .NET 4.7.1 (66MB)
+- Microsoft .NET 4.7.2 (66MB)
 - Microsoft Visual Studio 2010 Tools for Office Runtime (38MB)
 
 Your computer will automatically download and install these items direct from Microsoft, if required.
@@ -85,11 +85,11 @@ Goto to slide *n*. Will default to first or last slide in *n* is out-of-range.
 
 - `/oscpoint/goto/slide/first`  
 Goto to first slide in active slide show.  
-*Note: This will go to the first slide in the presentation even if it's hidden. We plan to fix this soon.*
+*Note: This will go to the first slide in the presentation even if it's hidden. See [this issue](https://github.com/phuvf/oscpoint/issues/1#issue-1968312581) for details.*
 
 - `/oscpoint/goto/slide/last`  
 Goto to last slide in active slide show.  
-*Note: This will go to the last slide in the presentation even if it's hidden. We plan to fix this soon.*
+*Note: This will go to the last slide in the presentation even if it's hidden. See [this issue](https://github.com/phuvf/oscpoint/issues/1#issue-1968312581) for details.*
 
 - `/oscpoint/goto/section [string: sectionName]`  
 Goto to first slide in section *sectionName*. Will do nothing if *sectionName* is not found.  
