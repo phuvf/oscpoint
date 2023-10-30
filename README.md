@@ -15,7 +15,7 @@ It's designed to be used with PowerPoint 2016 or later, but may work with earlie
 
 ## Support
 
-OSCPoint is developed by [Nick Roberts](https://github.com/phuvf). My day job is head of development for [OctoCue](https://octocue.com), so the OSCPoint PowerPoint add-in uses OctoCue's code signing certificate (in exchange for a bit of brand exposure).
+OSCPoint is developed by [Nick Roberts](https://github.com/phuvf). My day job is head of development for [OctoCue](https://octocue.com), so the OSCPoint PowerPoint add-in uses OctoCue's code signing certificate, in exchange for a bit of brand exposure.
 
 If you have questions or find bugs please use the [issue tracker on GitHub](https://github.com/phuvf/oscpoint/issues).
 
@@ -25,7 +25,7 @@ If you find this project useful, consider buying me a coffee:
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/X8X073GQ3)
 
-I'm always looking for interesting ideas to work on - check out my [GitHub profile](https://github.com/phuvf) to see if I might be a good match your your project.
+I'm always looking for interesting ideas to work on - check out my [GitHub profile](https://github.com/phuvf) to see if I might be a good match for your project.
 
 ## Capabilites and limitations
 
@@ -230,6 +230,8 @@ This project was inspired by the following:
 - https://www.irisdown.co.uk/rsc.html - the OG PowerPoint API
 - https://github.com/benkuper/PowerPoint-OSC
 - https://github.com/leonreucher/powerpoint-remote-websocket
+
+I'd also like to thank the members of the [Companion User Group](https://www.facebook.com/groups/companion) on Facebook for their ideas and suggestions.
 
 ## License
 
