@@ -17,7 +17,7 @@ OSCPoint is developed by [Nick Roberts](https://github.com/phuvf/phuvf). My day 
 
 If you have questions or find bugs please use the [issue tracker on GitHub](https://github.com/phuvf/oscpoint/issues).
 
-For feature requests, please check the [Roadmap](#roadmap) section below, and if your idea isn't there, please [raise an issue]([./issues](https://github.com/phuvf/oscpoint/issues/new?labels=enhancement&template=feature_request.md) on GitHub.
+For feature requests, please check the [Roadmap](#roadmap) section below, and if your idea isn't there, please [raise an issue](https://github.com/phuvf/oscpoint/issues/new?labels=enhancement&template=feature_request.md) on GitHub.
 
 If you find this project useful, consider buying me a coffee:
 
