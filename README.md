@@ -40,7 +40,9 @@ This COM add-in for PowerPoint requires some supporting frameworks, including:
 
 Your computer will automatically download and install these items direct from Microsoft, if required.
 
-Finally, if PowerPoint is currently running on your machine, you'll neeed to close and re-open it to load up the add-in.
+Finally, if PowerPoint is currently running on your machine, you'll need to close and re-open it to load up the add-in.
+
+For more details, including infomation on SmartScreen warnings, see the [installation guide for the OctoCue add-in](https://support.octocue.com/docs/add-in/add-in_installation), which follows exactly the same process - this avoids me writing it out twice.
 
 ## OSC Actions
 
