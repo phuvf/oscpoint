@@ -207,8 +207,8 @@ The duration of the media in milliseconds.
 - `/oscpoint/slideshow/media/position [integer: n]`  
 The current position of the media playhead in milliseconds.
 
-- `/oscpoint/slideshow/media/remianing [integer: n]`  
-The remaining  of the video in milliseconds.
+- `/oscpoint/slideshow/media/remaining [integer: n]`  
+The remaining playtime of the media in milliseconds.
 
 
 ## Roadmap
