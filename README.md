@@ -127,6 +127,9 @@ Sets black screen overlay. *n* = 1 black on, *n* = 0 black off. If no integer is
 - `/oscpoint/slideshow/white [optional integer: n]`  
 Sets white screen overlay. *n* = 1 white on, *n* = 0 white off. If no integer is provided, white screen will toggle.
 
+- `/oscpoint/slideshow/laserpointer [optional integer: n]`  
+Turns on/off virtual laser pointer. *n* = 1 laser on, *n* = 0 laser off. If no integer is provided, laser will toggle.
+
 ### Media control
 
 *Due to the way PowerPoint handles media, these actions will only work if you're in slideshow mode and there's a single media element on the current slide.*
