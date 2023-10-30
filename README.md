@@ -9,6 +9,16 @@ OSCPoint is a PowerPoint add-in that allows OSC control of PowerPoint on Windows
 
 It's designed to be used with PowerPoint 2016 or later, but may work with earlier versions.
 
+## Support
+
+OSCPoint is developed by [Nick Roberts](https://github.com/phuvf/phuvf) and is provided free of charge. We do not provide any support for OSCPoint, but you can report issues and request features using the issue tracker on GitHub.
+
+OSCPoint is licensed under the MIT license.
+
+Nick's day job is head of development for OctoCue, so the OSCPoint PowerPoint add-in uses OctoCue's code signing certificate.
+
+![Logo: OctoCue](octocue_banner_small_dark.png)
+
 ## Capabilites and limitations
 
 OSCPoint allows you to control PowerPoint using **actions**, and get information about the state of PowerPoint using **feedbacks**. See the OSC Actions and OSC Feedbacks sections below for further details.
