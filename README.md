@@ -1,9 +1,11 @@
-# OSC Point -  an OSC API for PowerPoint
+# OSCPoint -  an OSC API for PowerPoint
 
 > [!WARNING]
 > OSCPoint is still under active development, and has not reached a beta-stage yet. Do not use on production systems.
 >
 > If you give this a go, please share freedback and issues using the issue tracker on GitHub.
+>
+> OSCPoint will need a BitFocus Companion module to accompany it. This is not available yet - if you'd like to start developing one, get in touch!
 
 OSCPoint is a PowerPoint add-in that allows OSC control of PowerPoint on Windows. It's primarily designed to be used with BitFocus Companion, but should work with any OSC client that can send and receive OSC messages over UDP.
 
@@ -13,13 +15,17 @@ It's designed to be used with PowerPoint 2016 or later, but may work with earlie
 
 OSCPoint is developed by [Nick Roberts](https://github.com/phuvf/phuvf). My day job is head of development for [OctoCue](https://octocue.com), so the OSCPoint PowerPoint add-in uses OctoCue's code signing certificate.
 
+If you have questions or find bugs please use the [issue tracker on GitHub](/issues).
+
+For feature requests, please check the [Roadmap](#roadmap) section below, and if your idea isn't there, please [raise an issue](/issues/new?labels=enhancement&template=feature_request.md&title=) on GitHub.
+
 If you find this project useful, consider buying me a coffee:
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/X8X073GQ3)
 
 ## Capabilites and limitations
 
-OSCPoint allows you to control PowerPoint using **actions**, and get information about the state of PowerPoint using **feedbacks**. See the OSC Actions and OSC Feedbacks sections below for further details.
+OSCPoint allows you to control PowerPoint using **actions**, and get information about the state of PowerPoint using **feedbacks**. See the [OSC actions](#osc-actions) and [OSC Feedbacks](#osc-feedbacks) sections below for further details.
 
 OSCPoint is not:
 
@@ -104,11 +110,7 @@ Sets white screen overlay. *n* = 1 white on, *n* = 0 white off. If no integer is
 
 ### Media control
 
-> [!NOTE]
-> Due to the way PowerPoint handles media, these actions will only work if:
-> 
-> - You're in slideshow mode
-> - There's a single media element on the current slide
+*Due to the way PowerPoint handles media, these actions will only work if you're in slideshow mode and there's a single media element on the current slide.*
 
 - `/oscpoint/media/play`  
 - `/oscpoint/media/pause`  
@@ -208,3 +210,7 @@ These ideas have been suggested, but are not yet implemented:
 - Load presentation using filename/path
 - Select and play a named slide show
 - Turn on/off laser pointer (method seems to be missing from PowerPoint's COM API)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
