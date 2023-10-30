@@ -36,8 +36,13 @@ OSCPoint is not:
 - A one-stop GUI for controlling PowerPoint
 - Available on plaforms other than Windows
 
-## Installation
+## Downloads
 
+| Date       | Version | Release notes   | Link                                                                             |
+| ---------- | ------- | --------------- | -------------------------------------------------------------------------------- |
+| 2023-10-30 | 1.0.0.0 | Initial release | [Download](https://oscpoint.blob.core.windows.net/downloads/oscpoint-latest.zip) |
+
+## Installation instructions
 - Download the .zip file and save it to your computer
 - Unpack the .zip file to a temporary folder
 - Run setup.exe from the temporary folder
