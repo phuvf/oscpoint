@@ -15,9 +15,9 @@ It's designed to be used with PowerPoint 2016 or later, but may work with earlie
 
 OSCPoint is developed by [Nick Roberts](https://github.com/phuvf/phuvf). My day job is head of development for [OctoCue](https://octocue.com), so the OSCPoint PowerPoint add-in uses OctoCue's code signing certificate.
 
-If you have questions or find bugs please use the [issue tracker on GitHub](/issues).
+If you have questions or find bugs please use the [issue tracker on GitHub](./issues).
 
-For feature requests, please check the [Roadmap](#roadmap) section below, and if your idea isn't there, please [raise an issue](/issues/new?labels=enhancement&template=feature_request.md&title=) on GitHub.
+For feature requests, please check the [Roadmap](#roadmap) section below, and if your idea isn't there, please [raise an issue](./issues/new?labels=enhancement&template=feature_request.md&title=) on GitHub.
 
 If you find this project useful, consider buying me a coffee:
 
