@@ -1,7 +1,7 @@
 # OSCPoint -  an OSC API for PowerPoint
 
 > [!WARNING]
-> OSCPoint is still under active development, and has not reached a beta-stage yet. 
+> OSCPoint is still under active development, and has not reached a beta-stage yet. There are likely to be bugs, and the API may change without warning.
 > 
 > **DO NOT USE ON PRODUCTION SYSTEMS**
 >
@@ -54,13 +54,25 @@ Finally, if PowerPoint is currently running on your machine, you'll need to clos
 
 For more details, including infomation on SmartScreen warnings, see the [installation guide for the OctoCue add-in](https://support.octocue.com/docs/add-in/add-in_installation), which follows exactly the same process - this avoids me writing it out twice.
 
+## Configuration
+
+The add-in will add a new **OSCPoint** tab to the PowerPoint ribbon. Here you can:
+
+- Globally disable OSCPoint  
+*Using this leaves the add-in running, but it will no longer react to incoming OSC actions, or emit OSC feedback.*
+- Configure the local port for incoming OSC messages
+- Configure the remote host and port for outgoing OSC messages
+
+Configuration settings are stored on your machine per-user and will persist between sessions.
+
+
 ## OSC Actions
 
 OSC actions are messages you can send to OSCPoint to control PowerPoint. These must be sent as properly formatted OSC messages and transmitted via UDP.
 
 OSC bundles are supported, but have not been extensively tested.
 
-The default local port used to receive messages is 35550. You can configure the local port for these using the OSCPoint ribbon tab.
+The default local port used to receive messages is `35550`. You can configure the local port for these using the OSCPoint ribbon tab.
 
 ### Slide control
 
@@ -147,7 +159,7 @@ Start/stop laser pointer. *n* = 1 laser pointer on, *n* = 0 laser pointer off. -
 
 Feedbacks are the messages OSCPoint sends to your OSC client to tell you about the current state of PowerPoint. They are sent out of OSCPoint as OSC messages via UDP.
 
-The default remote host is 127.0.0.1 and remote port is 35551 - you can configure the host and port for the outgoing messages using the OSCPoint ribbon tab.
+The default remote host is `127.0.0.1` and remote port is `35551` - you can configure the host and port for the outgoing messages using the OSCPoint ribbon tab.
 
 ### Valid whenever a presentation is open
 
@@ -214,6 +226,14 @@ These ideas have been suggested, but are not yet implemented:
 - Load presentation using filename/path
 - Select and play a named slide show
 - Turn on/off laser pointer (method seems to be missing from PowerPoint's COM API)
+
+## Credits
+
+This project was inspired by the following:
+
+- https://www.irisdown.co.uk/rsc.html - the OG PowerPoint API
+- https://github.com/benkuper/PowerPoint-OSC
+- https://github.com/leonreucher/powerpoint-remote-websocket
 
 ## License
 
