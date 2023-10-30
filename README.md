@@ -3,7 +3,7 @@
 > [!WARNING]
 > OSCPoint is still under active development, and has not reached a beta-stage yet. 
 > 
-> **Do not use on production systems.**
+> **DO NOT USE ON PRODUCTION SYSTEMS**
 >
 > If you give this a go, please share your feedback and issues using the [issue tracker on GitHub](https://github.com/phuvf/oscpoint/issues).
 >
