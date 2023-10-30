@@ -11,13 +11,11 @@ It's designed to be used with PowerPoint 2016 or later, but may work with earlie
 
 ## Support
 
-OSCPoint is developed by [Nick Roberts](https://github.com/phuvf/phuvf) and is provided free of charge. We do not provide any support for OSCPoint, but you can report issues and request features using the issue tracker on GitHub.
+OSCPoint is developed by [Nick Roberts](https://github.com/phuvf/phuvf). My day job is head of development for [OctoCue](https://octocue.com), so the OSCPoint PowerPoint add-in uses OctoCue's code signing certificate.
 
-OSCPoint is licensed under the MIT license.
+If you find this project useful, consider buying me a coffee:
 
-Nick's day job is head of development for OctoCue, so the OSCPoint PowerPoint add-in uses OctoCue's code signing certificate.
-
-![Logo: OctoCue](octocue_banner_small_dark.png)
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/X8X073GQ3)
 
 ## Capabilites and limitations
 
