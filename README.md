@@ -189,7 +189,7 @@ The build position of the current slide.
 - `/oscpoint/slideshow/builds/count [integer: n]`  
 The total number of builds on the current slide.
 
-- `/oscpoint/slideshow/remainingbuilds [integer: n]`  
+- `/oscpoint/slideshow/builds/remaining [integer: n]`  
 The number of builds remaining on the current slide.
 
 - `/oscpoint/slideshow/section/index [integer: n]`  
