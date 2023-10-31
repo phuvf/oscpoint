@@ -40,7 +40,9 @@ OSCPoint is not:
 
 | Date       | Version | Release notes   | Link                                                                             |
 | ---------- | ------- | --------------- | -------------------------------------------------------------------------------- |
-| 2023-10-30 | 1.0.0.0 | Initial release | [Download](https://oscpoint.blob.core.windows.net/downloads/oscpoint-latest.zip) |
+| 2023-10-31 | 1.0.0.1 | [Change log](./ChangeLog.md) | [Download](./releases/oscpoint-latest.zip) |
+
+[Previous releases](./releases/) are also available.
 
 ## Installation instructions
 - Download the .zip file and save it to your computer
@@ -65,7 +67,7 @@ The add-in will add a new **OSCPoint** tab to the PowerPoint ribbon. Here you ca
 
 - Globally disable OSCPoint  
 *Using this leaves the add-in running, but it will no longer react to incoming OSC actions, or emit OSC feedback.*
-- Configure the local port for incoming OSC messages - default `35550`
+- Configure the local port for incoming OSC messages - default `35551`
 - Configure the remote host and port for outgoing OSC messages - default `127.0.0.1` and `35550`
 
 Configuration settings are stored on your machine per-user and will persist between sessions.
@@ -200,7 +202,7 @@ Current section name.
 
 - `/oscpoint/slideshow/notes [string: notesText]`  
 Current slide notes (ASCII encoding). Line breaks are normally sent as CR, ASCII 13 (0D in hex).  
-*Note: There's a limit to the length of notes that can be returned by OSC over UDP. I'm not sure exactly what this is (probably limited by the maximum packet size of 64k), but I've tested up to 30,000 characters. That's a lot of notes.*
+*Note: There's a limit to the length of notes that can be returned by OSC over UDP. I'm not sure exactly what this is (probably limited by the maximum packet size of 64k), but I've tested up to 32,000 characters and notes strings longer than this will be truncated. That's a lot of notes.*
 
 ### Valid only during a slideshow, and when there's a media element on the current slide
 
@@ -229,7 +231,7 @@ These ideas have been suggested, but are not yet implemented:
 - Save slide as wallpaper
 - Load presentation using filename/path
 - Select and play a named slide show
-- Turn on/off laser pointer (method seems to be missing from PowerPoint's COM API)
+- Add better logging
 
 ## Credits
 
