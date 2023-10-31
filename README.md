@@ -206,6 +206,8 @@ Current slide notes (ASCII encoding). Line breaks are normally sent as CR, ASCII
 
 *Please also see the note about media in the **actions** section above - all the same caveats apply here*
 
+These OSC messages will be emitted once every 500ms while the media is in the `playing` state.
+
 - `/oscpoint/slideshow/media/state [string: stateName]`  
 The current state of the media element. Possible values are: `playing`, `paused`, `stopped`, `notready`
 
