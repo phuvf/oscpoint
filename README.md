@@ -236,7 +236,6 @@ These ideas have been suggested, but are not yet implemented:
 - Save slide as wallpaper
 - Load presentation using filename/path
 - Select and play a named slide show
-- Add better logging
 
 ## Credits
 
