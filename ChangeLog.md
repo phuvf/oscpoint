@@ -1,4 +1,9 @@
 # OSCPoint Change log
+
+## 1.0.0.7
+- Better data resetting on slideshow end
+- Better media object handling
+
 ## 1.0.0.6
 
 - Better media object handling
