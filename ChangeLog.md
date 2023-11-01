@@ -1,4 +1,9 @@
 # OSCPoint Change log
+## 1.0.0.6
+
+- Better media object handling
+- Better feedback resetting at end of slideshow
+
 ## 1.0.0.5
 
 - Fixed issue where having no named sections in show file caused feedbacks to break
