@@ -36,6 +36,11 @@ OSCPoint is not:
 - A one-stop GUI for controlling PowerPoint
 - Available on plaforms other than Windows
 
+> [!WARNING]
+> OSCPoint gives you the ability to navigate your PowerPoint show without it being the active (focussed) window.
+> 
+> Media elements and slide transitions may not play correctly when PowerPoint does not have focus.
+
 ## Downloads
 
 | Date       | Version | Release notes   | Link                                                                             |
