@@ -45,7 +45,7 @@ OSCPoint is not:
 
 | Date       | Version | Release notes   | Link                                                                             |
 | ---------- | ------- | --------------- | -------------------------------------------------------------------------------- |
-| 2023-10-31 | 1.0.0.6 | [Change log](./ChangeLog.md) | [Download](https://oscpoint.blob.core.windows.net/downloads/oscpoint-1.0.0.6.zip) |
+| 2023-11-01 | 1.0.0.7 | [Change log](./ChangeLog.md) | [Download](https://oscpoint.blob.core.windows.net/downloads/oscpoint-1.0.0.7.zip) |
 
 ## Installation instructions
 - Download the .zip file and save it to your computer
