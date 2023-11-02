@@ -1,3 +1,5 @@
+![OSCPoint logo](assets/oscpoint-logo-small.png)
+
 # OSCPoint -  an OSC API for PowerPoint
 
 > [!WARNING]
