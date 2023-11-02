@@ -1,4 +1,4 @@
-![OSCPoint logo](assets/oscpoint-logo-small.png)
+<img src="./assets/oscpoint-logo.png" height="64 " width="375">
 
 # OSCPoint -  an OSC API for PowerPoint
 
