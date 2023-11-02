@@ -78,7 +78,7 @@ Move playhead to position *n* milliseconds before end of clip.
 - `/oscpoint/media/goto/position/forward [integer n]`  
 Move playhead forward *n* milliseconds from current position.
   
-- `/oscpoint/media/goto/position/backward [integer n]`  
+- `/oscpoint/media/goto/position/back [integer n]`  
 Move playhead backward *n* milliseconds from current position.
 
 - `/oscpoint/media/goto/position/percent [integer n]`  
