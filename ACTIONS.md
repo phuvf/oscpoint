@@ -81,8 +81,8 @@ Move playhead forward *n* milliseconds from current position.
 - `/oscpoint/media/goto/position/back [integer n]`  
 Move playhead backward *n* milliseconds from current position.
 
-- `/oscpoint/media/goto/position/percent [integer n]`  
-Move playhead to position *n* percent from start of clip.
+- `/oscpoint/media/goto/position/percent [float f]`  
+Move playhead to position *f* percent from start of clip.
 
 - `/oscpoint/media/goto/bookmark/next`  
 Move playhead to next bookmark.
