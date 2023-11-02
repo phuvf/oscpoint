@@ -29,7 +29,9 @@ I'm always looking for interesting ideas to work on - check out my [GitHub profi
 
 ## Capabilites and limitations
 
-OSCPoint allows you to control PowerPoint using **actions**, and get information about the state of PowerPoint using **feedbacks**. See the [OSC actions](#osc-actions) and [OSC Feedbacks](#osc-feedbacks) sections below for further details.
+OSCPoint allows you to control PowerPoint using **actions**, and get information about the state of PowerPoint using **feedbacks**.
+
+See the [Actions](ACTIONS.md) and [Feedbacks](FEEDBACKS.md) files for full details.
 
 OSCPoint is not:
 
