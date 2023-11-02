@@ -7,7 +7,7 @@
 >
 > If you give this a go, please share your feedback and issues using the [issue tracker on GitHub](https://github.com/phuvf/oscpoint/issues).
 >
-> A BitFocus Companion module to accompany OSCPoint is current in development, but is not yet included in the current Companion builds - see [companion-module-zinc-oscpoint](https://github.com/bitfocus/companion-module-zinc-oscpoint) for details.
+> A Bitfocus Companion module to accompany OSCPoint is current in development, but is not yet included in the current Companion builds - see [companion-module-zinc-oscpoint](https://github.com/bitfocus/companion-module-zinc-oscpoint) for details.
 
 OSCPoint is a free PowerPoint add-in that allows Open Sound Control (OSC) control of PowerPoint on Windows. It's primarily designed to be used with BitFocus Companion, but should work with any OSC client that can send and receive OSC messages over UDP.
 
