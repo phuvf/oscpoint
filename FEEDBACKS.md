@@ -41,7 +41,7 @@ Current slide notes (ASCII encoding). Line breaks are normally sent as CR, ASCII
 
 ## Valid only during a slideshow, and when there's a media element on the current slide
 
-*Please also see the note about media in the **actions** section above - all the same caveats apply here*
+*Please also see the note about media in [ACTIONS.md](ACTIONS.md) - all the same caveats apply here*
 
 These OSC messages will be emitted once every 500ms while the media is in the `playing` state.
 

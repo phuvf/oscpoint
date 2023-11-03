@@ -1,5 +1,16 @@
 # OSCPoint Change log
 
+## 1.0.1.0
+
+Released 2023-22-03
+
+> [!WARNING]
+> Includes breaking change to media position actions
+
+- Reworked media position actions to avoid negative integer issues
+- Added %age position action
+
+
 ## 1.0.0.7
 - Better data resetting on slideshow end
 - Better media object handling

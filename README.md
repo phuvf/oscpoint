@@ -43,13 +43,15 @@ OSCPoint is not:
 > [!WARNING]
 > OSCPoint gives you the ability to navigate your PowerPoint show without it being the active (focussed) window.
 > 
-> Media elements and slide transitions may not play correctly when PowerPoint does not have focus.
+> Media elements, slide transitions and OSC feedbacks may not play correctly when PowerPoint does not have focus.
+>
+> To summarise, don't run PowerPoint in the background and expect OSCPoint to work correctly.
 
 ## Downloads
 
-| Date       | Version | Release notes   | Link                                                                             |
-| ---------- | ------- | --------------- | -------------------------------------------------------------------------------- |
-| 2023-11-01 | 1.0.0.7 | [Change log](./ChangeLog.md) | [Download](https://oscpoint.blob.core.windows.net/downloads/oscpoint-1.0.0.7.zip) |
+| Date       | Version | Change log   | Link                                                                             | Notes |
+| ---------- | ------- | --------------- | -------------------------------------------------------------------------------- | --|
+| 2023-11-03 | 1.0.1.0 | [Link](./ChangeLog.md) | [Download](https://oscpoint.blob.core.windows.net/downloads/oscpoint-1.0.1.0.zip) | Includes API update for media position actions
 
 ## Installation instructions
 - Download the .zip file and save it to your computer
