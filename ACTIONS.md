@@ -101,7 +101,8 @@ Enable OSC actions.
 Disable OSC actions. All messages (except `/oscpoint/actions/enable`) will be ignored.
 
 - `/oscpoint/feedbacks/enable`  
-Enable OSC feedbacks. Will also trigger a refresh of all feedbacks.
+Enable OSC feedbacks.  
+Will also trigger a refresh of all feedbacks.
 
 - `/oscpoint/feedbacks/disable`  
 Disable OSC feedbacks.
@@ -116,7 +117,9 @@ Set the local port for incoming OSC messages, default is `35551`.
 > Once you send this message you'll need to send any subsequent OSC messages to the new port.
 
 - `/oscpoint/network/remotehost [string: host]`  
-Set the remote host (target IP) for feedback OSC messages, default is `127.0.0.1`
+Set the remote host (target IP) for feedback OSC messages, default is `127.0.0.1`.  
+Will also trigger a refresh of all feedbacks.
 
 - `/oscpoint/network/remoteport [integer: n]`  
-Set the remote port for feedback OSC messages, default is `35550`
+Set the remote port for feedback OSC messages, default is `35550`.  
+ Will also trigger a refresh of all feedbacks.
