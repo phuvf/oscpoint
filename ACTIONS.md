@@ -92,5 +92,31 @@ Move playhead to previous bookmark
 
 ## System control
 
+Most of these actions adjust settings that can also be configured using the **OSCPoint** tab on the ribbon in PowerPoint.
+
+- `/oscpoint/actions/enable`  
+Enable OSC actions.
+
+- `/oscpoint/actions/disable`  
+Disable OSC actions. All messages (except `/oscpoint/actions/enable`) will be ignored.
+
+- `/oscpoint/feedbacks/enable`  
+Enable OSC feedbacks. Will also trigger a refresh of all feedbacks.
+
+- `/oscpoint/feedbacks/disable`  
+Disable OSC feedbacks.
+
 - `/oscpoint/feedbacks/refresh`  
 Resend the most recent feedback values.
+
+- `/oscpoint/network/localport [integer: n]`  
+Set the local port for incoming OSC messages, default is `35551`.
+
+> [!NOTE]
+> Once you send this message you'll need to send any subsequent OSC messages to the new port.
+
+- `/oscpoint/network/remotehost [string: host]`  
+Set the remote host (target IP) for feedback OSC messages, default is `127.0.0.1`
+
+- `/oscpoint/network/remoteport [integer: n]`  
+Set the remote port for feedback OSC messages, default is `35550`
