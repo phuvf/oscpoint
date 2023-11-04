@@ -106,7 +106,7 @@ These ideas have been suggested, but are not yet implemented:
 - Load presentation using filename/path
 - Select and play a named slide show
 
-For more details, please see the [enhancements](issues?q=is%3Aopen+is%3Aissue+label%3Aenhancement) label in issues.
+For more details, please see the [enhancements](/issues?q=is%3Aopen+is%3Aissue+label%3Aenhancement) label in issues.
 
 ## Credits
 
