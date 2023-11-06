@@ -78,8 +78,7 @@ The add-in will add a new **OSCPoint** tab to the PowerPoint ribbon:
 
 Using the ribbon tab you can:
 
-- Globally disable OSCPoint  
-*Using this leaves the add-in running, but it will no longer react to incoming OSC actions, or emit OSC feedback.*
+- Enable and disable OSC actions and feedbacks.
 - Configure the local port for incoming OSC messages - default `35551`
 - Configure the remote host and port for outgoing OSC messages - default `127.0.0.1` and `35550`
 
