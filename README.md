@@ -1,8 +1,5 @@
 # OSCPoint -  an OSC API for PowerPoint
 
-<img src="./assets/oscpoint-logo-white-bg.png" width="240">
-
-
 <img src="./assets/ribbon.png" style="max-width: 600px">
 
 **OSCPoint is a free PowerPoint add-in that allows Open Sound Control (OSC) control of PowerPoint on Windows.**
@@ -12,7 +9,7 @@ It's primarily designed to be used with BitFocus Companion, but should work with
 > [!WARNING]
 > OSCPoint is still under active development, and has not reached a beta-stage yet. There are likely to be bugs, and the API may change without warning.
 > 
-> **DO NOT USE ON PRODUCTION SYSTEMS**
+> **DO NOT USE ON PRODUCTION SYSTEMS (YET)**
 >
 > If you give this a go, please share your feedback and issues using the [issue tracker on GitHub](https://github.com/phuvf/oscpoint/issues).
 >
