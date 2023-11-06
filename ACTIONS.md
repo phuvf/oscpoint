@@ -109,17 +109,3 @@ Disable OSC feedbacks.
 
 - `/oscpoint/feedbacks/refresh`  
 Resend the most recent feedback values.
-
-- `/oscpoint/network/localport [integer: n]`  
-Set the local port for incoming OSC messages, default is `35551`.
-
-> [!NOTE]
-> Once you send this message you'll need to send any subsequent OSC messages to the new port.
-
-- `/oscpoint/network/remotehost [string: host]`  
-Set the remote host (target IP) for feedback OSC messages, default is `127.0.0.1`.  
-Will also trigger a refresh of all feedbacks.
-
-- `/oscpoint/network/remoteport [integer: n]`  
-Set the remote port for feedback OSC messages, default is `35550`.  
- Will also trigger a refresh of all feedbacks.
