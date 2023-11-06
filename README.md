@@ -79,8 +79,9 @@ The add-in will add a new **OSCPoint** tab to the PowerPoint ribbon:
 Using the ribbon tab you can:
 
 - Enable and disable OSC actions and feedbacks.
-- Configure the local port for incoming OSC messages - default `35551`
-- Configure the remote host and port for outgoing OSC messages - default `127.0.0.1` and `35550`
+- Set the local port for incoming action messages - range is `1024` to `65535`, default `35551`
+- Set the remote host for outgoing feedback messages - default `127.0.0.1`
+- Set the remote port for outgoing feedback messages - range is `1024` to `65535`, default `35550`
 
 Configuration settings are stored on your machine per-user and will persist between sessions.
 
