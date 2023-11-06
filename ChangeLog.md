@@ -1,8 +1,15 @@
 # OSCPoint Change log
+## 1.0.1.1
 
+Released 2023-11-05
+
+- Added `/oscpoint/actions/[enable | disable]` and `/oscpoint/feedbacks/[enable | disable]` actions
+- Reworked ribbon tab to suit
+- Better user input checking for port and host settings
+- 
 ## 1.0.1.0
 
-Released 2023-22-03
+Released 2023-11-03
 
 > [!WARNING]
 > Includes breaking change to media position actions

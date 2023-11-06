@@ -51,7 +51,7 @@ OSCPoint is not:
 
 | Date       | Version | Change log   | Link                                                                             | Notes |
 | ---------- | ------- | --------------- | -------------------------------------------------------------------------------- | --|
-| 2023-11-03 | 1.0.1.0 | [Link](./ChangeLog.md) | [Download](https://oscpoint.blob.core.windows.net/downloads/oscpoint-1.0.1.0.zip) | Includes API update for media position actions
+| 2023-11-05 | 1.0.1.1 | [Link](./ChangeLog.md) | [Download](https://oscpoint.blob.core.windows.net/downloads/oscpoint-1.0.1.1.zip) | Includes API update for media position actions
 
 ## Installation instructions
 - Download the .zip file and save it to your computer

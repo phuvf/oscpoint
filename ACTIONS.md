@@ -92,5 +92,20 @@ Move playhead to previous bookmark
 
 ## System control
 
+Most of these actions adjust settings that can also be configured using the **OSCPoint** tab on the ribbon in PowerPoint.
+
+- `/oscpoint/actions/enable`  
+Enable OSC actions.
+
+- `/oscpoint/actions/disable`  
+Disable OSC actions. All messages (except `/oscpoint/actions/enable`) will be ignored.
+
+- `/oscpoint/feedbacks/enable`  
+Enable OSC feedbacks.  
+Will also trigger a refresh of all feedbacks.
+
+- `/oscpoint/feedbacks/disable`  
+Disable OSC feedbacks.
+
 - `/oscpoint/feedbacks/refresh`  
 Resend the most recent feedback values.
