@@ -42,8 +42,10 @@ See the [Actions](ACTIONS.md) and [Feedbacks](FEEDBACKS.md) files for full detai
 
 OSCPoint is not:
 
-- A one-stop GUI for controlling PowerPoint
 - Available on plaforms other than Windows
+- A one-stop GUI for controlling PowerPoint - we recommend using in conjunction with Bitfocus Companion for this:
+
+<a href="https://bitfocus.io/companion/?ref=companion-module-zinc-oscpoint" target="_new"><img alt="Controllable by Companion" src="https://bitfocus.io/companion-badge.png?ref=companion-module-zinc-oscpoint" width='150'></a>
 
 > [!WARNING]
 > OSCPoint gives you the ability to navigate your PowerPoint show without it being the active (focussed) window.
