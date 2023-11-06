@@ -9,7 +9,8 @@
 >
 > A Bitfocus Companion module to accompany OSCPoint is current in development, but is not yet included in the current Companion builds - see [companion-module-zinc-oscpoint](https://github.com/bitfocus/companion-module-zinc-oscpoint) for details.
 > 
-<img src="./assets/oscpoint-logo-white-bg.png" height="48 " width="242">
+<img src="./assets/oscpoint-logo-white-bg.png" style='max-width: 240px'>
+
 
 OSCPoint is a free PowerPoint add-in that allows Open Sound Control (OSC) control of PowerPoint on Windows. It's primarily designed to be used with BitFocus Companion, but should work with any OSC client that can send and receive OSC messages over UDP.
 
@@ -71,8 +72,11 @@ Finally, if PowerPoint is currently running on your machine, you'll need to clos
 For more details, including infomation on SmartScreen warnings, see the [installation guide for the OctoCue add-in](https://support.octocue.com/docs/add-in/add-in_installation), which follows exactly the same process - this avoids me writing it out twice.
 
 ## Configuration
+The add-in will add a new **OSCPoint** tab to the PowerPoint ribbon:
 
-The add-in will add a new **OSCPoint** tab to the PowerPoint ribbon. Here you can:
+<img src="./assets/ribbon.png" style="max-width: 600px">
+
+Using the ribbon tab you can:
 
 - Globally disable OSCPoint  
 *Using this leaves the add-in running, but it will no longer react to incoming OSC actions, or emit OSC feedback.*
