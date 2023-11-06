@@ -1,20 +1,20 @@
 # OSCPoint -  an OSC API for PowerPoint
 
+<img src="./assets/ribbon.png" style="max-width: 600px">
+
+**OSCPoint is a free PowerPoint add-in that allows Open Sound Control (OSC) control of PowerPoint on Windows.**
+
+It's primarily designed to be used with BitFocus Companion, but should work with any OSC client that can send and receive OSC messages over UDP.
+
 > [!WARNING]
 > OSCPoint is still under active development, and has not reached a beta-stage yet. There are likely to be bugs, and the API may change without warning.
 > 
-> **DO NOT USE ON PRODUCTION SYSTEMS**
+> **DO NOT USE ON PRODUCTION SYSTEMS (YET)**
 >
 > If you give this a go, please share your feedback and issues using the [issue tracker on GitHub](https://github.com/phuvf/oscpoint/issues).
 >
 > A Bitfocus Companion module to accompany OSCPoint is current in development, but is not yet included in the current Companion builds - see [companion-module-zinc-oscpoint](https://github.com/bitfocus/companion-module-zinc-oscpoint) for details.
 > 
-<img src="./assets/oscpoint-logo-white-bg.png" width="240">
-
-
-OSCPoint is a free PowerPoint add-in that allows Open Sound Control (OSC) control of PowerPoint on Windows. It's primarily designed to be used with BitFocus Companion, but should work with any OSC client that can send and receive OSC messages over UDP.
-
-It's designed to be used with PowerPoint 2016 or later.
 
 ## Support
 
@@ -54,7 +54,7 @@ OSCPoint is not:
 
 | Date       | Version | Change log   | Link                                                                             | Notes |
 | ---------- | ------- | --------------- | -------------------------------------------------------------------------------- | --|
-| 2023-11-05 | 1.0.1.1 | [Link](./ChangeLog.md) | [Download](https://oscpoint.blob.core.windows.net/downloads/oscpoint-1.0.1.1.zip) |  |
+| 2023-11-05 | 1.0.1.1 | [Link](./ChangeLog.md) | [Download](https://oscpoint.blob.core.windows.net/downloads/oscpoint-1.0.1.1.zip) | (none) |
 
 ## Installation instructions
 - Download the .zip file and save it to your computer
@@ -74,9 +74,8 @@ Finally, if PowerPoint is currently running on your machine, you'll need to clos
 For more details, including infomation on SmartScreen warnings, see the [installation guide for the OctoCue add-in](https://support.octocue.com/docs/add-in/add-in_installation), which follows exactly the same process - this avoids me writing it out twice.
 
 ## Configuration
-The add-in will add a new **OSCPoint** tab to the PowerPoint ribbon:
+The add-in will add a new **OSCPoint** tab to the PowerPoint ribbon.
 
-<img src="./assets/ribbon.png" style="max-width: 600px">
 
 Using the ribbon tab you can:
 
