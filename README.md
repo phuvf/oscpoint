@@ -11,10 +11,11 @@ It's primarily designed to be used with BitFocus Companion, but should work with
 
 ![GitHub release (with filter)](https://img.shields.io/github/v/release/phuvf/oscpoint?color=c43e1c)
 </div>
-
+<div align="center">
 <img src="./assets/ribbon.png" style="max-width: 600px">
 
-_The **OSCPoint** tab on the PowerPoint ribbon_
+_Screenshot shows the OSCPoint tab on the PowerPoint ribbon_
+</div>
 
 > [!WARNING]
 > OSCPoint is still under active development, and has not reached a beta-stage yet. There are likely to be bugs, and the API may change without warning.
