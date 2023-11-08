@@ -13,6 +13,7 @@ It's primarily designed to be used with BitFocus Companion, but should work with
 </div>
 
 <img src="./assets/ribbon.png" style="max-width: 600px">
+
 _The **OSCPoint** tab on the PowerPoint ribbon_
 
 > [!WARNING]
