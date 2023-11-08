@@ -1,4 +1,4 @@
-<a href="https://github.com/waydabber/BetterDisplay/releases"><img src="./assets/oscpoint-icon-padded-v2.png" width="150" alt="App icon" align="left"/></a>
+<a href="https://github.com/waydabber/BetterDisplay/releases"><img src="./assets/oscpoint-icon-padded-v3.png" width="150" alt="App icon" align="left"/></a>
 
 <div>
 <h2>OSCPoint: an OSC API for PowerPoint</h2>
