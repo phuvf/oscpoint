@@ -50,14 +50,8 @@ OSCPoint is not:
 >
 > To summarise, don't run PowerPoint in the background and expect OSCPoint to work correctly.
 
-## Downloads
-
-| Date       | Version | Change log   | Link                                                                             | Notes |
-| ---------- | ------- | --------------- | -------------------------------------------------------------------------------- | --|
-| 2023-11-05 | 1.0.1.1 | [Link](./ChangeLog.md) | [Download](https://oscpoint.blob.core.windows.net/downloads/oscpoint-1.0.1.1.zip) | (none) |
-
 ## Installation instructions
-- Download the .zip file and save it to your computer
+- Download the [latest version](https://github.com/phuvf/oscpoint/releases)
 - Unpack the .zip file to a temporary folder
 - Run setup.exe from the temporary folder
 - Once installation is complete, you can delete your temporary folder.
