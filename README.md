@@ -10,6 +10,8 @@
 It's primarily designed to be used with BitFocus Companion, but should work with any OSC client that can send and receive OSC messages over UDP.
 
 ![GitHub release (with filter)](https://img.shields.io/github/v/release/phuvf/oscpoint?color=c43e1c)
+![GitHub all releases](https://img.shields.io/github/downloads/phuvf/oscpoint/total?color=c43e1c)
+![GitHub](https://img.shields.io/github/license/phuvf/oscpoint?color=c43e1c)
 </div>
 <div align="center">
 <img src="./assets/ribbon.png" style="max-width: 600px">
