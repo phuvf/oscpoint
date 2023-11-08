@@ -8,7 +8,8 @@
 **OSCPoint is a free PowerPoint add-in that allows Open Sound Control (OSC) control of PowerPoint on Windows.**
 
 It's primarily designed to be used with BitFocus Companion, but should work with any OSC client that can send and receive OSC messages over UDP.
-
+</div>
+<div align="right">
 ![GitHub release (with filter)](https://img.shields.io/github/v/release/phuvf/oscpoint?color=c43e1c)
 ![GitHub all releases](https://img.shields.io/github/downloads/phuvf/oscpoint/total?color=c43e1c)
 ![GitHub](https://img.shields.io/github/license/phuvf/oscpoint?color=c43e1c)
