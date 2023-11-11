@@ -18,7 +18,7 @@ While the add-in is designed to be used with BitFocus Companion, it should work 
 
 
 <div align="center">
-<img src="./assets/ribbon.png" width="600" style="max-width: 600px">
+<img src="./assets/ribbon.png" style="max-width: 600px">
 
 _Screenshot shows the OSCPoint tab on the PowerPoint ribbon_
 </div>
@@ -27,7 +27,7 @@ The OSCPoint add-in is intalled on your Windows machine, and runs alongside Powe
 ## The Companion module
 
 <div align="center">
-<img src="./assets/streamdeck.png" width="600" style="max-width: 400px">
+<img src="./assets/streamdeck.png" style="max-width: 400px">
 
 _A sample Streamdeck layout using the Companion OSCPoint module_
 </div>
