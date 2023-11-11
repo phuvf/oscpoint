@@ -3,9 +3,9 @@
 <div>
 <h2>OSCPoint: an OSC API for PowerPoint</h2>
 
-**OSCPoint is a free PowerPoint add-in that allows Open Sound Control (OSC) control of PowerPoint on Windows.**
+**OSCPoint is a free PowerPoint add-in - and Companion Module - that allows Open Sound Control (OSC) control of PowerPoint on Windows.**
 
-It's primarily designed to be used with BitFocus Companion, but should work with any OSC client that can send and receive OSC messages over UDP.
+While the add-in is designed to be used with BitFocus Companion using the matching module, it should work with any OSC client that can send and receive OSC messages over UDP.
 </div>
 <div align="right">
 
@@ -13,11 +13,35 @@ It's primarily designed to be used with BitFocus Companion, but should work with
 ![GitHub](https://img.shields.io/github/license/phuvf/oscpoint?color=c43e1c)
 
 </div>
+
+## The add-in
+
+
 <div align="center">
 <img src="./assets/ribbon.png" style="max-width: 600px">
 
 _Screenshot shows the OSCPoint tab on the PowerPoint ribbon_
 </div>
+The OSCPoint add-in is intalled on your Windows machine, and runs alongside PowerPoint. It provides an OSC API for PowerPoint.
+
+## The Companion module
+
+<div align="center">
+<img src="./assets/streamdeck.png" style="max-width: 400px">
+
+_A sample Streamdeck layout using the Companion OSCPoint module_
+</div>
+
+The Companion OSCPoint module (listed as **Zinc: OSCPoint**) simplifies the process of triggering OSCPoint actions and displaying OSCPoint feedbacks.
+
+This module is currently available in beta builds of Companion v3.2.x. If you'd like to run this module in the current stable v3.1.x, please follow [these instructions](https://github.com/bitfocus/companion-module-base/wiki#4-clone-the-module).
+
+### Further actions
+
+- [Download Companion](https://bitfocus.io/companion)
+- [Link to module repository](https://github.com/bitfocus/companion-module-zinc-oscpoint)
+
+## Capabilites and limitations
 
 > [!WARNING]
 > OSCPoint is still under active development, and has not reached a beta-stage yet. There are likely to be bugs, and the API may change without warning.
@@ -28,44 +52,28 @@ _Screenshot shows the OSCPoint tab on the PowerPoint ribbon_
 >
 > A Bitfocus Companion module to accompany OSCPoint is current in development, but is not yet included in the current Companion builds - see [companion-module-zinc-oscpoint](https://github.com/bitfocus/companion-module-zinc-oscpoint) for details.
 
-<hr>
-
-
-## Support
-
-OSCPoint is developed by [Nick Roberts](https://github.com/phuvf). My day job is head of development for [OctoCue](https://octocue.com), so the OSCPoint PowerPoint add-in uses OctoCue's code signing certificate, in exchange for a bit of brand exposure.
-
-If you have questions or find bugs please use the [issue tracker on GitHub](https://github.com/phuvf/oscpoint/issues).
-
-For feature requests, please check the [Roadmap](#roadmap) section below, and if your idea isn't there, please [raise an issue](https://github.com/phuvf/oscpoint/issues/new?labels=enhancement&template=feature_request.md) on GitHub.
-
-If you find this project useful, consider buying me a coffee:
-
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/X8X073GQ3)
-
-I'm always looking for interesting ideas to work on - check out my [GitHub profile](https://github.com/phuvf) to see if I might be a good match for your project.
-
-## Capabilites and limitations
 
 OSCPoint allows you to control PowerPoint using **actions**, and get information about the state of PowerPoint using **feedbacks**.
 
 See the [Actions](ACTIONS.md) and [Feedbacks](FEEDBACKS.md) files for full details.
 
-OSCPoint is not:
+### Highlights
 
-- Available on plaforms other than Windows
-- A one-stop GUI for controlling PowerPoint - we recommend using in conjunction with Bitfocus Companion for this:
+- Start & stop slideshows, and navigate slides
+- Control media playback including jumping to specific times in clip
+- Get feedback on the current slide and current build
+- Get full live notes text via OSC feedback
+- Get feedback on media state, playback position and runtime
 
-<a href="https://bitfocus.io/companion/?ref=companion-module-zinc-oscpoint" target="_new"><img alt="Controllable by Companion" src="https://bitfocus.io/companion-badge.png?ref=companion-module-zinc-oscpoint" width='150'></a>
+OSCPoint is Windows-only, and requires PowerPoint 2016 or later.
 
-> [!WARNING]
 > OSCPoint gives you the ability to navigate your PowerPoint show without it being the active (focussed) window.
-> 
-> Media elements, slide transitions and OSC feedbacks may not play correctly when PowerPoint does not have focus.
 >
-> To summarise, don't run PowerPoint in the background and expect OSCPoint to work correctly.
+>Media elements, slide transitions and OSC feedbacks may not play correctly when PowerPoint does not have focus.
+>
+>To summarise, don't run PowerPoint in the background and expect OSCPoint to work correctly.
 
-## Installation instructions
+## Add-in installation instructions
 - Download the [latest version](https://github.com/phuvf/oscpoint/releases)
 - Unpack the .zip file to a temporary folder
 - Run setup.exe from the temporary folder
@@ -82,7 +90,7 @@ Finally, if PowerPoint is currently running on your machine, you'll need to clos
 
 For more details, including infomation on SmartScreen warnings, see the [installation guide for the OctoCue add-in](https://support.octocue.com/docs/add-in/add-in_installation), which follows exactly the same process - this avoids me writing it out twice.
 
-## Configuration
+## Add-in configuration
 The add-in will add a new **OSCPoint** tab to the PowerPoint ribbon.
 
 
@@ -121,6 +129,21 @@ These ideas have been suggested, but are not yet implemented:
 - Select and play a named slide show
 
 For more details, please see the [enhancements](https://github.com/phuvf/oscpoint/issues?q=is%3Aopen+is%3Aissue+label%3Aenhancement) label in issues.
+
+## Support
+
+OSCPoint is developed by [Nick Roberts](https://github.com/phuvf). My day job is head of development for [OctoCue](https://octocue.com), so the OSCPoint PowerPoint add-in uses OctoCue's code signing certificate, in exchange for a bit of brand exposure.
+
+If you have questions or find bugs please use the [issue tracker on GitHub](https://github.com/phuvf/oscpoint/issues).
+
+For feature requests, please check the [Roadmap](#roadmap) section below, and if your idea isn't there, please [raise an issue](https://github.com/phuvf/oscpoint/issues/new?labels=enhancement&template=feature_request.md) on GitHub.
+
+If you find this project useful, consider buying me a coffee:
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/X8X073GQ3)
+
+I'm always looking for interesting ideas to work on - check out my [GitHub profile](https://github.com/phuvf) to see if I might be a good match for your project.
+
 
 ## Credits
 
