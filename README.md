@@ -49,8 +49,6 @@ This module is currently available in beta builds of Companion v3.2.x. If you'd 
 > **DO NOT USE ON PRODUCTION SYSTEMS (YET)**
 >
 > If you give this a go, please share your feedback and issues using the [issue tracker on GitHub](https://github.com/phuvf/oscpoint/issues).
->
-> A Bitfocus Companion module to accompany OSCPoint is current in development, but is not yet included in the current Companion builds - see [companion-module-zinc-oscpoint](https://github.com/bitfocus/companion-module-zinc-oscpoint) for details.
 
 
 OSCPoint allows you to control PowerPoint using **actions**, and get information about the state of PowerPoint using **feedbacks**.
