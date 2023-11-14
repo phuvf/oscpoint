@@ -79,11 +79,11 @@ OSCPoint is developed by [Nick Roberts](https://github.com/phuvf). My day job is
 
 If you have questions or find bugs please use the [issue tracker on GitHub](https://github.com/phuvf/oscpoint/issues).
 
-For feature requests, please check the [Roadmap](#roadmap) section below, and if your idea isn't there, please [raise an issue](https://github.com/phuvf/oscpoint/issues/new?labels=enhancement&template=feature_request.md) on GitHub.
+For feature requests, please check the [enhancements](https://github.com/phuvf/oscpoint/issues?q=is%3Aopen+is%3Aissue+label%3Aenhancement) label in issues, and if your idea isn't there, please [raise a new issue](https://github.com/phuvf/oscpoint/issues/new?labels=enhancement&template=feature_request.md) on GitHub.
 
 If you find this project useful, consider buying me a coffee:
 
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/X8X073GQ3)
+[![ko-fi](./assets/kofi_s_tag_dark.png)](https://ko-fi.com/X8X073GQ3)
 
 I'm always looking for interesting ideas to work on - check out my [GitHub profile](https://github.com/phuvf) to see if I might be a good match for your project.
 
