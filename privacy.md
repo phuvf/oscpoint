@@ -19,3 +19,7 @@ If you'd like to see specifics on what we collect:
 - Line items with the class **debug** local to your machine only, and not shared.
 - Line items with the class **info** are shared usage data.
 - Line items with the class **error** are shared crash logs.
+
+## The Companion module
+
+The OSCPoint Companion module does not collect any data.
