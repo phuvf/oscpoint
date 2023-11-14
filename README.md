@@ -75,9 +75,11 @@ See the [enhancements](https://github.com/phuvf/oscpoint/issues?q=is%3Aopen+is%3
 
 ## Support
 
+<img src="https://octocue.com/icons/octocue_banner_mid_dark.png" width='200' style="max-width: 400px" align='right'>
+
 OSCPoint is developed by [Nick Roberts](https://github.com/phuvf). My day job is head of development for [OctoCue](https://octocue.com), so the OSCPoint PowerPoint add-in uses OctoCue's code signing certificate, in exchange for a bit of brand exposure.
 
-<a href='https://octocue.com/'><img src="https://octocue.com/icons/octocue_banner_mid_dark.png" width='200' style="max-width: 400px"></a>
+
 
 If you have questions or find bugs please use the [issue tracker on GitHub](https://github.com/phuvf/oscpoint/issues).
 
