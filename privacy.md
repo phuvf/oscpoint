@@ -14,11 +14,11 @@ We do not collect any information about the content of your PowerPoint presentat
 
 If you'd like to see specifics on what we collect:
 
-- Open PowerPoint and navigate to the OSCPoint tab
-- Open the log file using the button provided
-- Line items with the class **debug** local to your machine only, and not shared.
-- Line items with the class **info** are shared usage data.
-- Line items with the class **error** are shared crash logs.
+1. Open PowerPoint and navigate to the OSCPoint tab
+2. Open the log file using the button provided, then:
+   - Line items with the class **debug** local to your machine only, and not shared.
+   - Line items with the class **info** are shared usage data.
+   - Line items with the class **error** are shared crash logs.
 
 ## The Companion module
 
