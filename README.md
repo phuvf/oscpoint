@@ -22,9 +22,10 @@ While the add-in is designed to be used with BitFocus Companion, it should work 
 
 _Screenshot shows the OSCPoint tab on the PowerPoint ribbon_
 </div>
+
 The OSCPoint add-in is intalled on your Windows machine, and runs alongside PowerPoint. It provides an OSC API for PowerPoint.
 
-To find out more about the add-in and download the latest verions, check the [add-in documentation](add-in.md).
+To find out more about the add-in and download the latest verion, check the [add-in documentation](add-in.md).
 
 ## The Companion module
 
