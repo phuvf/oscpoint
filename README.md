@@ -98,6 +98,10 @@ This project was inspired by the following:
 
 I'd also like to thank the members of the [Companion User Group](https://www.facebook.com/groups/companion) on Facebook for their ideas and suggestions.
 
+## Privacy
+
+See the [privacy policy](privacy.md) for details of how OSCPoint collects and handles your data.
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
