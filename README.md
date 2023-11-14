@@ -83,7 +83,7 @@ For feature requests, please check the [enhancements](https://github.com/phuvf/o
 
 If you find this project useful, consider buying me a coffee:
 
-[![ko-fi](./assets/kofi_s_tag_dark.png)](https://ko-fi.com/X8X073GQ3)
+[![ko-fi](./assets/kofi_s_tag_dark_sm.png)](https://ko-fi.com/X8X073GQ3)
 
 I'm always looking for interesting ideas to work on - check out my [GitHub profile](https://github.com/phuvf) to see if I might be a good match for your project.
 
