@@ -10,6 +10,7 @@ While the add-in is designed to be used with BitFocus Companion, it should work 
 <div align="right">
 
 ![GitHub release (with filter)](https://img.shields.io/github/v/release/phuvf/oscpoint?color=c43e1c)
+![GitHub all releases](https://img.shields.io/github/downloads/phuvf/oscpoint/total?color=c43e1c)
 ![GitHub](https://img.shields.io/github/license/phuvf/oscpoint?color=c43e1c)
 
 </div>
