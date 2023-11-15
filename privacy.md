@@ -2,6 +2,8 @@
 
 ## The PowerPoint add-in
 
+**We do not collect any information about the content of your PowerPoint presentations - but some info about the add-in itself is shared.**
+
 Starting from v1.0.2.0, the OSCPoint add-in has basic usage data and automatic crash log collection. This data is handled by the third party provider [sentry.io](https://sentry.io).
 
 [Find out more about Sentry and Privacy](https://sentry.io/trust/privacy/).
@@ -9,8 +11,6 @@ Starting from v1.0.2.0, the OSCPoint add-in has basic usage data and automatic c
 Usage data is limited to recording the version of OSCPoint you are using, and how often it starts up.
 
 Crash logs do not contain any personal data but might contain information about the hardware and software environment in which the add-in runs.
-
-We do not collect any information about the content of your PowerPoint presentations.
 
 If you'd like to see specifics on what we collect:
 
