@@ -50,7 +50,7 @@ To find out more about the module, check the [Companion module documentation](co
 
 OSCPoint allows you to control PowerPoint using **actions**, and get information about the state of PowerPoint using **feedbacks**.
 
-See the [Actions](actions.md) and [Feedbacks](feedbacks.md) files for full details.
+See the [Actions](ACTIONS.md) and [Feedbacks](FEEDBACKS.md) files for full details.
 
 ### Highlights
 
@@ -70,9 +70,9 @@ OSCPoint is Windows-only, and requires PowerPoint 2016 or later.
 
 ## Usage examples
 
-See the [examples](examples.md) file for some example use cases, including:
+See the [examples](EXAMPLES.md) file for some example use cases, including:
 
-- [Using OSCPoint, Companion and vMix to display live notes](examples.md#using-oscpoint-companion-and-vmix-to-display-live-notes)
+- [Using OSCPoint, Companion and vMix to display live notes](EXAMPLES.md#using-oscpoint-companion-and-vmix-to-display-live-notes)
 
 ## Roadmap
 
