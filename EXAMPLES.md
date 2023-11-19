@@ -51,7 +51,7 @@ Now we need to plumb everything together:
 *In the screenshot below I've also added a small delay to the second action - not sure if this is 100% needed - let me know how you get on!*
 
 ![Companion trigger setup](./assets/notes_trigger.png)
-_Screenshot shows the trigger setup_
+_Screenshot shows the trigger setup in Companion_
 
 ### Further actions and ideas
 
@@ -59,4 +59,4 @@ There's currently no way (that I know of) to adjust text size via the vMix API. 
 
 This could be automated by looking at the length of the notes text, and switching to the smaller input if it's over a certain length.
 
-Ultimately, at some point it'd be better to use IrisDown's [dNotes](https://www.irisdown.co.uk/) software to display notes as this handles font-sizing much better, and includes timers etc. 
+Ultimately, at some point it'd be better to use IrisDown's [dNotes](https://www.irisdown.co.uk/) software to display notes as this handles font-sizing much better.

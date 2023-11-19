@@ -40,14 +40,12 @@ The Companion OSCPoint module (listed as **Zinc: OSCPoint**) simplifies the proc
 
 To find out more about the module, check the [Companion module documentation](companion-module.md).
 
-## Capabilites and limitations
+## Actions and feedbacks
 
 > [!WARNING]
-> OSCPoint is still under active development, and has not reached a beta-stage yet. There are likely to be bugs, and the API may change without warning.
-> 
-> **DO NOT USE ON PRODUCTION SYSTEMS (YET)**
+> OSCPoint is still in beta. Use at your own risk!
 >
-> If you give this a go, please share your feedback and issues using the [issue tracker on GitHub](https://github.com/phuvf/oscpoint/issues).
+> Please share your feedback and any issues you encounter using the [issue tracker on GitHub](https://github.com/phuvf/oscpoint/issues).
 
 
 OSCPoint allows you to control PowerPoint using **actions**, and get information about the state of PowerPoint using **feedbacks**.
@@ -69,6 +67,12 @@ OSCPoint is Windows-only, and requires PowerPoint 2016 or later.
 >Media elements, slide transitions and OSC feedbacks may not play correctly when PowerPoint does not have focus.
 >
 >To summarise, don't run PowerPoint in the background and expect OSCPoint to work correctly.
+
+## Usage examples
+
+See the [examples](examples.md) file for some example use cases, including:
+
+- [Using OSCPoint, Companion and vMix to display live notes](examples.md#using-oscpoint-companion-and-vmix-to-display-live-notes)
 
 ## Roadmap
 
