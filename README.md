@@ -56,11 +56,13 @@ See the [Actions](ACTIONS.md) and [Feedbacks](FEEDBACKS.md) files for full detai
 
 OSCPoint is Windows-only, and requires PowerPoint 2016 or later.
 
+> [!WARNING] 
+> 
 > OSCPoint gives you the ability to navigate your PowerPoint show without it being the active (focussed) window.
 >
->Media elements, slide transitions and OSC feedbacks may not play correctly when PowerPoint does not have focus.
+> Media elements, slide transitions and OSC feedbacks may not play correctly when PowerPoint does not have focus.
 >
->To summarise, don't run PowerPoint in the background and expect OSCPoint to work correctly.
+> Don't run PowerPoint in the background and expect OSCPoint to work correctly.
 
 ## Usage examples
 
