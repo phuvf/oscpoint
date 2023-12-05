@@ -42,12 +42,6 @@ To find out more about the module, check the [Companion module documentation](co
 
 ## Actions and feedbacks
 
-> [!WARNING]
-> OSCPoint is still in beta. Use at your own risk!
->
-> Please share your feedback and any issues you encounter using the [issue tracker on GitHub](https://github.com/phuvf/oscpoint/issues).
-
-
 OSCPoint allows you to control PowerPoint using **actions**, and get information about the state of PowerPoint using **feedbacks**.
 
 See the [Actions](ACTIONS.md) and [Feedbacks](FEEDBACKS.md) files for full details.
