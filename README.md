@@ -1,7 +1,7 @@
 <a href="https://github.com/waydabber/BetterDisplay/releases"><img src="./assets/oscpoint-icon-padded-v3.png" width="150" alt="App icon" align="left"/></a>
 
 <div>
-<h2>OSCPoint: an OSC API for PowerPoint</h2>
+<h2 style='border: 0;'>OSCPoint: an OSC API for PowerPoint</h2>
 
 **OSCPoint is a free PowerPoint add-in - and Companion Module - that allows Open Sound Control (OSC) control of PowerPoint on Windows.**
 
