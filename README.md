@@ -1,7 +1,7 @@
 
 <div>
 <h2>OSCPoint: an OSC API for PowerPoint</h2>
-<img src="./assets/oscpoint-icon-padded-v3.png" width="150" alt="App icon" align="left"/>
+<img src="./assets/oscpoint-icon-padded-v4.png" width="150" alt="App icon" align="left"/>
 
 **OSCPoint is a free PowerPoint add-in - and Companion Module - that allows Open Sound Control (OSC) control of PowerPoint on Windows.**
 
