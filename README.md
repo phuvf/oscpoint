@@ -15,6 +15,11 @@ While the add-in is designed to be used with BitFocus Companion, it should work 
 
 </div>
 
+## Quick actions
+
+ - Download the [latest version of the add-in](https://github.com/phuvf/oscpoint/releases)
+ - Documentation links:  [Actions](ACTIONS.md) | [Feedbacks](FEEDBACKS.md) | [Examples](EXAMPLES.md) | [Companion module](companion-module.md)
+
 ## The add-in
 
 
