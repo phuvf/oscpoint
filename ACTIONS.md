@@ -57,6 +57,11 @@ Sets white screen overlay. *n* = 1 white on, *n* = 0 white off. If no integer is
 - `/oscpoint/slideshow/laserpointer [optional integer: n]`  
 Turns on/off virtual laser pointer. *n* = 1 laser on, *n* = 0 laser off. If no integer is provided, laser will toggle.
 
+- `/oscpoint/slideshow/setwallpaper [optional integer: width px] [optional integer: height px]` **v2.x+**  
+Sets the current slide as the desktop wallpaper.
+  - Exports current slide to temporary folder at resolution `width` x `height` px. Will default to 1920x1080 if no width and height are provided.
+  - Sets exported image as fill-style wallpaper for all monitors on machine.
+
 ## Media control
 
 *Due to the way PowerPoint handles media, these actions will only work if you're in slideshow mode and there's a single media element on the current slide.*

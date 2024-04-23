@@ -23,7 +23,7 @@ If no presentation is open, this message include a blank presentation object:
     ```
 
 - `/oscpoint/v2/files/path [string: path]`  
-  The path to the OSCPoint folder, relative to the user's home directory. For more details about this feature, see the [FILES.md](FILES.md).
+  The path to the OSCPoint folder, relative to the user's home directory. For more details about this feature, see [FILES.md](FILES.md).
 
 
 

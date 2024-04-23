@@ -56,7 +56,7 @@ An example of the JSON structure is:
 [
   {
     "name": "test.pptx",
-    "fullName": "C:\\Users\\[USERNAME]\Desktop\\oscpoint\\test_presentation.pptx",
+    "fullName": "C:\\Users\\[USERNAME]\\Desktop\\oscpoint\\test_presentation.pptx",
     "extension": ".pptx",
     "length": 265299837,
     "lastAccessTime": "23/04/2024 13:05:22",

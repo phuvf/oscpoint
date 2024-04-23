@@ -1,6 +1,8 @@
 # OSCPoint event feedback
 
-As of OSCPoint v2.x, selected individual events in PowerPoint are sent as OSC messages. To received these, feedbacks need to be enabled in the OSCPoint add-in settings.
+As of OSCPoint v2.x, selected individual events in PowerPoint are sent as OSC messages.
+
+To received these, feedback needs to be enabled in the OSCPoint add-in settings.
 
 - `/oscpoint/v2/event [string: eventType] [args]`  
 Emitted any time an internal event fires in PowerPoint. Possible `eventTypes` and associated `args`  are:
