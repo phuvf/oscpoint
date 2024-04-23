@@ -1,4 +1,10 @@
 
+# WARNING
+
+## This is dev branch documentation for OSCPoint. If you're after documentation for the current release of OSCPoint, please see the main branch.
+
+### Nothing in this branch is guaranteed to be accurate or up-to-date. It's a work in progress.
+
 <div>
 <h2>OSCPoint: an OSC API for PowerPoint</h2>
 <img src="./assets/oscpoint-icon-padded-v4.png" width="150" alt="App icon" align="left"/>

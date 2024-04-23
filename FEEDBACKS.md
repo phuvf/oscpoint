@@ -2,6 +2,31 @@
 
 Feedbacks are the messages OSCPoint sends to your OSC client to tell you about the current state of PowerPoint. They are sent out of OSCPoint as OSC messages via UDP.
 
+> [!NOTE] 
+> 
+> Feedbacks starting with `/oscpoint/v2/` are new in version 2.x of OSCPoint.
+
+## Valid at any time
+
+- `/oscpoint/v2/event [string: eventType] [args]`  
+See [EVENTS.md](EVENTS.md) for a full list of events and arguments from this message.
+
+- `/oscpoint/v2/presentations [string: JSON array of presentation objects]`  
+List of all presentations currently open in PowerPoint. Includes the name, path, slide count, and whether the presentation is saved and in slide show mode. Also includes a full list of the individual sections that make up the presentation.  
+For an example of the JSON structure, see [PRESENTATION.md](PRESENTATION.md).
+
+- `/oscpoint/v2/presentation [string: JSON presentation object]`
+The current presentation object. Includes the name, path, slide count, and whether the presentation is saved and in slide show mode. Also includes a full list of the individual sections that make up the presentation.  
+If no presentation is open, this message include a blank presentation object:  
+    ```json
+    {"name":"","path":"","slideCount":0,"saved":false,"active":false,"slideshow":false,"sections":null}
+    ```
+
+- `/oscpoint/v2/files/path [string: path]`  
+  The path to the OSCPoint folder, relative to the user's home directory. For more details about this feature, see the [FILES.md](FILES.md).
+
+
+
 ## Valid whenever a presentation is open
 
 *Note: These feedbacks will switch values with focus changes if multiple presentations are open.*
