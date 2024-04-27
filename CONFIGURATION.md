@@ -1,6 +1,9 @@
-# Connection examples
+# OSCPoint - Configuration examples
 
-> Note: These examples are based on the assumption that you are running Companion to control OSCPoint - but lots of tools that can receive/output OSC can be used.
+> Note: These examples are based on the assumption that you are running Companion to control OSCPoint - but any tool that can receive/output OSC can be used.
+
+ - For details on how to change these setting in OSCPoint, see the [add-in documentation](add-in.md).
+ - For details on how to setup Companion, see the [Companion documentation](https://bitfocus.io/companion/).
 
 ## One machine running both Companion and PowerPoint
 
