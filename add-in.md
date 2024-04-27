@@ -36,3 +36,5 @@ Using the ribbon tab you can:
 - Set the remote port for outgoing feedback messages - range is `1024` to `65535`, default `35550`
 
 Configuration settings are stored on your machine per-user and will persist between sessions.
+
+For more details, see the [configuration examples](CONFIGURATION.md).
