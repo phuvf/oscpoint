@@ -8,7 +8,7 @@ _Screenshot shows the OSCPoint tab on the PowerPoint ribbon_
 The OSCPoint add-in is intalled on your Windows machine, and runs alongside PowerPoint. It provides an OSC API for PowerPoint.
 
 ## Installation instructions
-- Download the [latest version](https://github.com/phuvf/oscpoint/releases)
+- Download the [latest version](https://oscpoint.com/donate)
 - Unpack the .zip file to a temporary folder
 - Run setup.exe from the temporary folder
 - Once installation is complete, you can delete your temporary folder.
