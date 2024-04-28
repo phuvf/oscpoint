@@ -24,3 +24,11 @@ In this configuration, the Companion service is running on one machine, and OSCP
 Companion has two OSCPoint connections running. To get feedback from both machines, the feedback port needs to be changed on the second machine.
 
 ![One Companion machine, two PowerPoint machines](./assets/connection_examples/three_machines.png)
+
+## Broadcasting feedback to multiple machines
+
+In this configuration, multiple machines on the same network are receiving feedback from OSCPoint, by sending OSC messages to the broadcast address - in this case `192.168.0.255`.
+
+Calculate the broadcast address for your network using the [broadcast address calculator](https://remotemonitoringsystems.ca/broadcast.php).
+
+![Broadcasting feedback to multiple machines](./assets/connection_examples/broadcast.png)
