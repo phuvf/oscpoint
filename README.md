@@ -1,10 +1,6 @@
 
 # WARNING
 
-## This is dev branch documentation for OSCPoint. If you're after documentation for the current release of OSCPoint, please see the main branch.
-
-### Nothing in this branch is guaranteed to be accurate or up-to-date. It's a work in progress.
-
 <div>
 <h2>OSCPoint: an OSC API for PowerPoint</h2>
 <img src="./assets/oscpoint-icon-padded-v4.png" width="150" alt="App icon" align="left"/>
@@ -15,8 +11,6 @@ While the add-in is designed to be used with BitFocus Companion, it should work 
 </div>
 <div align="right">
 
-![GitHub release (with filter)](https://img.shields.io/github/v/release/phuvf/oscpoint?color=c43e1c)
-![GitHub all releases](https://img.shields.io/github/downloads/phuvf/oscpoint/total?color=c43e1c)
 ![GitHub](https://img.shields.io/github/license/phuvf/oscpoint?color=c43e1c)
 
 </div>

@@ -1,4 +1,36 @@
 # OSCPoint Change log
+
+## 2.0.0.1
+
+TO DO: Released xxxx-xx-xx
+
+### System changes
+
+
+- Changed slide show start logic and internal object model calls to improve performance/avoid flash of slide 1 when starting slide show
+- Added file handling system so presentations can be opened/closed on remote machine - see [FILES.md](FILES.md) for details
+- Added file access toggle to OSCPoint tab to enable/disable file access. For security reasons, this is off by default.
+- OSC messages are now queued and sent as bundles every c.200ms to avoid duplicate and out-of-order messages
+
+> [!NOTE]
+> Notes feedback is not bundled - it is sent immediately as it can be a large amount of data that might not survive bundling.
+
+### Actions
+
+
+- Added ability to start slide show from any slide number using `/oscpoint/slideshow/start [Integer: 5]`
+- Added `/oscpoint/slideshow/setwallpaper [optional integer: width px] [optional integer: height px]` command
+- Added `setpath`, `list`, `open` and `close` actions for file handling at `/oscpoint/files/[action]`
+
+### Feedbacks
+
+- Added  `/oscpoint/v2/event` feedback to allow direct hooking of PowerPoint events. These are not bundled and are sent immediately.
+- Added `/oscpoint/v2/presentations` feedback with JSON array of all open presentations
+- Added `/oscpoint/v2/presentation` feedback with JSON object of the active presentation
+
+> [!NOTE]
+> The JSON presentation object now includes detail of the presentation itself & slide counts , as well as full details of the sections within the presentation.  See [PRESENTATION.md](PRESENTATION.md) for an example JSON object.
+
 ## 1.0.1.1
 
 Released 2023-11-05
