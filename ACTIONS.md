@@ -39,6 +39,9 @@ Unhide slide *n*. Will do nothing if *n* is out-of-range.
 - `/oscpoint/slideshow/start`  
 Start slideshow from top (slide 1), based on active (focused) window.
 
+> Note
+> As of v2.0 an optional integer can be added to start from a specific slide - for example `/oscpoint/slideshow/start [Integer: 5]` to start at slide 5.
+
 - `/oscpoint/slideshow/end`  
 End active slideshow.
 
