@@ -108,7 +108,10 @@ If this folder does not exist, it will be created.
 Prompt OSCPoint to return a `/oscpoint/v2/files` message with details of files in active folder
 
 - `/oscpoint/files/open [string: filename]` ![v2.x + required](https://img.shields.io/badge/v2.x%20%2B-be3412)  
-Open file (in active folder) with name *filename*. Only files ending in `.ppt` and `.pptx` are supported.
+Open file (in active folder) with name *filename*. Only files ending in `.ppt` and `.pptx` are supported. Will switch to open presentation if file is already open.
+
+- `/oscpoint/presentations/activate [string: filename]` ![v2.x + required](https://img.shields.io/badge/v2.x%20%2B-be3412)  
+Switch to open presentation with name *filename*. If file is not open, will do nothing. Note that this action does not require file access permissions, unlike the `/oscpoint/files/open` action.
 
 - `/oscpoint/files/close [string: filename]` ![v2.x + required](https://img.shields.io/badge/v2.x%20%2B-be3412)  
 Close open presentation *filename*. Will do nothing if file is not open.

@@ -21,6 +21,7 @@ TO DO: Released xxxx-xx-xx
 - Added ability to start slide show from any slide number using `/oscpoint/slideshow/start [Integer: 5]`
 - Added `/oscpoint/slideshow/setwallpaper [optional integer: width px] [optional integer: height px]` command
 - Added `setpath`, `list`, `open` and `close` actions for file handling at `/oscpoint/files/[action]`
+- Added `activate` action to switch presentations without needing file access permissions
 
 ### Feedbacks
 
