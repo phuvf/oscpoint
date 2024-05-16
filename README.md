@@ -1,4 +1,6 @@
 
+# WARNING
+
 <div>
 <h2>OSCPoint: an OSC API for PowerPoint</h2>
 <img src="./assets/oscpoint-icon-padded-v4.png" width="150" alt="App icon" align="left"/>
@@ -30,7 +32,7 @@ _Screenshot shows the OSCPoint tab on the PowerPoint ribbon_
 
 The OSCPoint add-in is intalled on your Windows machine, and runs alongside PowerPoint. It provides an OSC API for PowerPoint.
 
-To find out more about the add-in and download the latest verion, check the [add-in documentation](add-in.md).
+To find out more about the add-in and download the latest version, check the [add-in documentation](add-in.md).
 
 ## The Companion module
 
@@ -57,6 +59,7 @@ See the [Actions](ACTIONS.md) and [Feedbacks](FEEDBACKS.md) files for full detai
 - Get feedback on the current slide and current build
 - Get full live notes text via OSC feedback
 - Get feedback on media state, playback position and runtime
+- Open a close presentations contained in a nominated folder on the PowerPoint machine
 
 OSCPoint is Windows-only, and requires PowerPoint 2016 or later.
 

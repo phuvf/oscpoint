@@ -39,6 +39,9 @@ Unhide slide *n*. Will do nothing if *n* is out-of-range.
 - `/oscpoint/slideshow/start`  
 Start slideshow from top (slide 1), based on active (focused) window.
 
+> Note
+> As of v2.0 an optional integer can be added to start from a specific slide - for example `/oscpoint/slideshow/start [Integer: 5]` to start at slide 5.
+
 - `/oscpoint/slideshow/end`  
 End active slideshow.
 
@@ -56,6 +59,11 @@ Sets white screen overlay. *n* = 1 white on, *n* = 0 white off. If no integer is
 
 - `/oscpoint/slideshow/laserpointer [optional integer: n]`  
 Turns on/off virtual laser pointer. *n* = 1 laser on, *n* = 0 laser off. If no integer is provided, laser will toggle.
+
+- `/oscpoint/slideshow/setwallpaper [optional integer: width px] [optional integer: height px]` ![v2.x + required](https://img.shields.io/badge/v2.x%20%2B-be3412)  
+Sets the current slide as the desktop wallpaper.
+  - Exports current slide to temporary folder at resolution `width` x `height` px. Will default to 1920x1080 if no width and height are provided.
+  - Sets exported image as fill-style wallpaper for all monitors on machine.
 
 ## Media control
 
@@ -89,6 +97,22 @@ Move playhead to next bookmark.
 
 - `/oscpoint/media/goto/bookmark/previous`  
 Move playhead to previous bookmark
+
+## File control
+
+- `/oscpoint/files/setpath [string: path]` ![v2.x + required](https://img.shields.io/badge/v2.x%20%2B-be3412)  
+Set active folder to *path*, realtive to user folder. For example, setting the active folder to `Desktop\myfolder\oscpoint` will mean OSCPoint will look for PowerPoint presentations in `C:\Users\[USERNAME]\Desktop\myfolder\oscpoint`.
+If this folder does not exist, it will be created.
+
+- `/oscpoint/files/list` ![v2.x + required](https://img.shields.io/badge/v2.x%20%2B-be3412)  
+Prompt OSCPoint to return a `/oscpoint/v2/files` message with details of files in active folder
+
+- `/oscpoint/files/open [string: filename]` ![v2.x + required](https://img.shields.io/badge/v2.x%20%2B-be3412)  
+Open file (in active folder) with name *filename*. Only files ending in `.ppt` and `.pptx` are supported.
+
+- `/oscpoint/files/close [string: filename]` ![v2.x + required](https://img.shields.io/badge/v2.x%20%2B-be3412)  
+Close open presentation *filename*. Will do nothing if file is not open.
+
 
 ## System control
 
