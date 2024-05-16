@@ -52,13 +52,13 @@ Released 2023-11-03
 
 
 ## 1.0.0.7
-- Better data resetting on slideshow end
+- Better data resetting on slide show end
 - Better media object handling
 
 ## 1.0.0.6
 
 - Better media object handling
-- Better feedback resetting at end of slideshow
+- Better feedback resetting at end of slide show
 
 ## 1.0.0.5
 
@@ -74,7 +74,7 @@ Released 2023-11-03
 - Started change log
 - Added `laserpointer` action
 - Removed internal `validActions` checking as no longer required
-- Capped length of returned notes string to 32,000 charaters
+- Capped length of returned notes string to 32,000 characters
 - Added argument type checking to OSC actions
 - Added *About* dialog to ribbon so version checking possible.
 
