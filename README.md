@@ -4,9 +4,9 @@
 
 **OSCPoint is a free PowerPoint add-in - and Companion Module - that allows Open Sound Control (OSC) control of PowerPoint on Windows.**
 
-While the add-in is designed to be used with BitFocus Companion, it should work with any OSC client that can send and receive OSC messages over UDP.
+It allows users to take remote control of PowerPoint machines, including opening/closing presentations, starting and stopping slide shows, navigating slides and controlling media playback.
 
-OSCPoint allows users to take remote control of PowerPoint machines, including opening/closing presentations, starting and stopping slide shows, navigating slides and controlling media playback.
+While the add-in is designed to be used with BitFocus Companion, it should work with any OSC client that can send and receive OSC messages over UDP.
 </div>
 <div align="right">
 
