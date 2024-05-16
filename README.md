@@ -56,7 +56,7 @@ See the [Actions](ACTIONS.md) and [Feedbacks](FEEDBACKS.md) files for full detai
 - Get feedback on the current slide and current build
 - Get full live notes text via OSC feedback
 - Get feedback on media state, playback position and runtime
-- Open a close presentations contained in a nominated folder on the PowerPoint machine ![v2.x + required](https://img.shields.io/badge/Beta%20%2B-be3412)
+- Open a close presentations contained in a nominated folder on the PowerPoint machine ![in beta testing](https://img.shields.io/badge/beta-be3412)
 
 OSCPoint is Windows-only, and requires PowerPoint 2016 or later.
 
