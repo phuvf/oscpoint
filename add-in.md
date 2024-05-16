@@ -8,7 +8,7 @@ _Screenshot shows the OSCPoint tab on the PowerPoint ribbon_
 The OSCPoint add-in is intalled on your Windows machine, and runs alongside PowerPoint. It provides an OSC API for PowerPoint.
 
 ## Installation instructions
-- Download the [latest version](https://github.com/phuvf/oscpoint/releases)
+- Download the [latest version](https://oscpoint.com/donate)
 - Unpack the .zip file to a temporary folder
 - Run setup.exe from the temporary folder
 - Once installation is complete, you can delete your temporary folder.
@@ -36,3 +36,5 @@ Using the ribbon tab you can:
 - Set the remote port for outgoing feedback messages - range is `1024` to `65535`, default `35550`
 
 Configuration settings are stored on your machine per-user and will persist between sessions.
+
+For more details, see the [configuration examples](CONFIGURATION.md).
