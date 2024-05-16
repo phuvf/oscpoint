@@ -8,11 +8,6 @@ It allows users to take remote control of PowerPoint machines, including opening
 
 While the add-in is designed to be used with BitFocus Companion, it should work with any OSC client that can send and receive OSC messages over UDP.
 </div>
-<div align="right">
-
-![GitHub](https://img.shields.io/github/license/phuvf/oscpoint?color=c43e1c)
-
-</div>
 
 ## Quick actions
 
