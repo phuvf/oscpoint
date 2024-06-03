@@ -2,7 +2,7 @@
 
 ## 2.0.0.1
 
-TO DO: Released xxxx-xx-xx
+TO DO: Released 2024-06-01
 
 ### System changes
 
