@@ -1,5 +1,11 @@
 # OSCPoint Change log
 
+## 2.0.0.2
+
+Released 2024-06-04
+
+- Fixed small bug causing section name mis-reporting
+
 ## 2.0.0.1
 
 Released 2024-06-01
