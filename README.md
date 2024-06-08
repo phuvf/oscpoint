@@ -77,15 +77,16 @@ See the [enhancements](https://github.com/phuvf/oscpoint/issues?q=is%3Aopen+is%3
 
 ## Support
 
+For help and support with OSCPoint, join the [OSCPoint users](https://www.facebook.com/groups/oscpoint) group on Facebook.
+
+If you find bugs please use the [issue tracker on GitHub](https://github.com/phuvf/oscpoint/issues).
+
+For feature requests, please check the [enhancements](https://github.com/phuvf/oscpoint/issues?q=is%3Aopen+is%3Aissue+label%3Aenhancement) label in issues, and if your idea isn't there, please [raise a new issue](https://github.com/phuvf/oscpoint/issues/new?labels=enhancement&template=feature_request.md) on GitHub.
+
 <img src="https://octocue.com/icons/octocue_banner_mid_dark.png" width='200' style="max-width: 400px" align='right'>
 
 OSCPoint is developed by [Nick Roberts](https://github.com/phuvf). My day job is head of development for [OctoCue](https://octocue.com), so the OSCPoint PowerPoint add-in uses OctoCue's code signing certificate, in exchange for a bit of brand exposure.
 
-
-
-If you have questions or find bugs please use the [issue tracker on GitHub](https://github.com/phuvf/oscpoint/issues).
-
-For feature requests, please check the [enhancements](https://github.com/phuvf/oscpoint/issues?q=is%3Aopen+is%3Aissue+label%3Aenhancement) label in issues, and if your idea isn't there, please [raise a new issue](https://github.com/phuvf/oscpoint/issues/new?labels=enhancement&template=feature_request.md) on GitHub.
 
 If you find this project useful, consider buying me a coffee:
 
