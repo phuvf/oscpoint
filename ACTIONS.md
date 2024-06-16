@@ -39,7 +39,7 @@ Unhide slide *n*. Will do nothing if *n* is out-of-range.
 - `/oscpoint/slideshow/start`  
 Start slideshow from top (slide 1), based on active (focused) window.
 
-> Note
+> [!NOTE] 
 > As of v2.0 an optional integer can be added to start from a specific slide - for example `/oscpoint/slideshow/start [Integer: 5]` to start at slide 5.
 
 - `/oscpoint/slideshow/end`  
@@ -100,7 +100,7 @@ Move playhead to previous bookmark
 
 ## File control
 
-> Note
+> [!NOTE] 
 > The *Allow file system access* setting must be enabled in the OSCPoint tab on settings for these actions to work.
 > For security reasons, this can only be enabled locally on the PowerPoint machine.
 
@@ -121,7 +121,7 @@ Switch to open presentation with name *filename*. If file is not open, will do n
 
 When closing a file with unsaved changes, a decision needs to be made as to what action to take. 
 
-> Warning
+> [!WARNING] 
 > The `/oscpoint/files/close` group of actions can overwrite files and/or lose unsaved file edits without warning. Use with caution.
 
 - `/oscpoint/files/close [optional string: filename]` ![v2.1 + required](https://img.shields.io/badge/v2.1%2B-0e3412)  
