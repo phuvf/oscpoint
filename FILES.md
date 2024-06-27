@@ -14,7 +14,8 @@ This allows a remote user to command OSCPoint to open and close PowerPoint prese
 ### Capabilities
 
 - Read the filenames of all PowerPoint presentations in the active folder, and share these via OSC.
-- Open (and close) PowerPoint presentations contained in the active folder by filename.
+- Open PowerPoint presentations contained in the active folder by filename.
+- Close PowerPoint presentations, while specifying what action to take if the file contains unsaved changes (*abort*, *save* or *force* close, discarding changes)
 - The active folder can be changed via OSC.
 
 ### Limitations
