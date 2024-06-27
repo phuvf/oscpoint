@@ -40,7 +40,7 @@ Unhide slide *n*. Will do nothing if *n* is out-of-range.
 Start slideshow from top (slide 1), based on active (focused) window.
 
 > [!NOTE] 
-> As of v2.0 an optional integer can be added to start from a specific slide - for example `/oscpoint/slideshow/start [Integer: 5]` to start at slide 5.
+> As of v2.0.0 an optional integer can be added to start from a specific slide - for example `/oscpoint/slideshow/start [Integer: 5]` to start at slide 5.
 
 - `/oscpoint/slideshow/end`  
 End active slide show.
@@ -60,7 +60,7 @@ Sets white screen overlay. *n* = 1 white on, *n* = 0 white off. If no integer is
 - `/oscpoint/slideshow/laserpointer [optional integer: n]`  
 Turns on/off virtual laser pointer. *n* = 1 laser on, *n* = 0 laser off. If no integer is provided, laser will toggle.
 
-- `/oscpoint/slideshow/setwallpaper [optional integer: width px] [optional integer: height px]` ![v2.0 + required](https://img.shields.io/badge/v2.0%2B-be3412)  
+- `/oscpoint/slideshow/setwallpaper [optional integer: width px] [optional integer: height px]` ![v2.0.0+ required](https://img.shields.io/badge/v2.0.0%2B-be3412)  
 Sets the current slide as the desktop wallpaper.
   - Exports current slide to temporary folder at resolution `width` x `height` px. Will default to 1920x1080 if no width and height are provided.
   - Sets exported image as fill-style wallpaper for all monitors on machine.
@@ -104,17 +104,17 @@ Move playhead to previous bookmark
 > The *Allow file system access* setting must be enabled in the OSCPoint tab on settings for these actions to work.
 > For security reasons, this can only be enabled locally on the PowerPoint machine.
 
-- `/oscpoint/files/setpath [string: path]` ![v2.0 + required](https://img.shields.io/badge/v2.0%2B-be3412)  
+- `/oscpoint/files/setpath [string: path]` ![v2.0.0 + required](https://img.shields.io/badge/v2.0.0%2B-be3412)  
 Set active folder to *path*, realtive to user folder. For example, setting the active folder to `Desktop\myfolder\oscpoint` will mean OSCPoint will look for PowerPoint presentations in `C:\Users\[USERNAME]\Desktop\myfolder\oscpoint`.
 If this folder does not exist, it will be created.
 
-- `/oscpoint/files/list` ![v2.0 + required](https://img.shields.io/badge/v2.0%2B-be3412)  
+- `/oscpoint/files/list` ![v2.0.0 + required](https://img.shields.io/badge/v2.0.0%2B-be3412)  
 Prompt OSCPoint to return a `/oscpoint/v2/files` message with details of files in active folder
 
-- `/oscpoint/files/open [string: filename]` ![v2.0 + required](https://img.shields.io/badge/v2.0%2B-be3412)  
+- `/oscpoint/files/open [string: filename]` ![v2.0.0 + required](https://img.shields.io/badge/v2.0.0%2B-be3412)  
 Open file (in active folder) with name *filename*. Only files ending in `.ppt` and `.pptx` are supported. Will switch to open presentation if file is already open.
 
-- `/oscpoint/presentations/activate [string: filename]` ![v2.0 + required](https://img.shields.io/badge/v2.x%20%2B-be3412)  
+- `/oscpoint/presentations/activate [string: filename]` ![v2.0.0 + required](https://img.shields.io/badge/v2.0.0%2B-be3412)  
 Switch to open presentation with name *filename*. If file is not open, will do nothing. Note that this action does not require file access permissions, unlike the `/oscpoint/files/open` action.
 
 ### Closing a file
@@ -124,15 +124,15 @@ When closing a file with unsaved changes, a decision needs to be made as to what
 > [!WARNING] 
 > The `/oscpoint/files/close` group of actions can overwrite files and/or lose unsaved file edits without warning. Use with caution.
 
-- `/oscpoint/files/close [optional string: filename]` ![v2.1 + required](https://img.shields.io/badge/v2.1%2B-0e3412)  
+- `/oscpoint/files/close [optional string: filename]` ![v2.0.1+ required](https://img.shields.io/badge/v2.0.1%2B-0e3412)  
 Close open presentation *filename*, or the active presentation if no filename specified.  
 Action when file has unsaved changes:  **abort**  - action will cancel and file will not close.
 
-- `/oscpoint/files/close/force [optional string: filename]` ![v2.1 + required](https://img.shields.io/badge/v2.1%2B-0e3412)  
+- `/oscpoint/files/close/force [optional string: filename]` ![v2.0.1+ required](https://img.shields.io/badge/v2.0.1%2B-0e3412)  
 Close open presentation *filename*, or the active presentation if no filename specified.  
 Action when file has unsaved changes:  **force close**  - unsaved changes are discarded and file is closed.
 
-- `/oscpoint/files/close/save [optional string: filename]` ![v2.1 + required](https://img.shields.io/badge/v2.1%2B-0e3412)  
+- `/oscpoint/files/close/save [optional string: filename]` ![v2.0.1+ required](https://img.shields.io/badge/v2.0.1%2B-0e3412)  
 Close open presentation *filename*, or the active presentation if no filename specified.  
 Action when file has unsaved changes:  **save and close**  - unsaved changes are saved and file is closed. This will overwrite the existing file.
 
