@@ -1,5 +1,13 @@
 # OSCPoint Change log
 
+## 2.0.2.0
+
+- Added UTF8 support for notes
+
+## 2.0.1.0
+
+- First beta release of OSCPoint v2
+
 ## 2.0.0.2
 
 Released 2024-06-04
