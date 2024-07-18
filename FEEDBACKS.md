@@ -68,7 +68,7 @@ Current slide notes in UTF-8 encoding. This is sent as raw bytes and will need d
 
 > [!NOTE] 
 > Use ASCII encoded notes for  quick, easy reading.  
-> Use UTF-8 encoded notes for full international character support, but you'll have to do the decoding yourself (or use the Companion Module, which does this for you).  
+> Use UTF-8 encoded notes for full international character support, but you'll have to do the decoding yourself - or use the Companion Module, which does this for you.  
 > To avoid busting UDP packet size limits, notes longer than 32,000 characters this will be truncated (that's a lot of notes).
 
 ## Valid only during a slideshow, and when there's a media element on the current slide
