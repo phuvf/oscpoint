@@ -18,14 +18,16 @@ However, these only come out a few times a year, so you may wish to manually upd
 
 To do this, follow these steps:
 
-### 1 - Download the latest module
+### 1 - Download the latest module release
 
 1. Navigate to the [GitHub repository](https://github.com/bitfocus/companion-module-zinc-oscpoint.git)
-2. Under the green `Code` button, click `Download ZIP`
+2. Select `Releases` from the side bar and download the latest release zip file.
 
-![ZIP download](./assets/zip-download.png)
+![Download the latest release](./assets/releases.png)
 
-3. Create a `companion-module-dev folder` somewhere on your computer and unzip the contents of the ZIP file into this folder.
+3. Create a `companion-module-dev folder` somewhere on your computer and unzip the contents of the zip file into this folder.
+4. You should end up with the folder structure:  
+`[YOUR CHOSEN LOCATION]/companion-module-dev/companion-module-zinc-oscpoint`
 
 ### 2 - Setup Companion to use the new module
 
@@ -35,7 +37,7 @@ Launch Companion, select the `cog icon` in the top right to show the developer t
 
 In the `Developer modules path` section, click the `Select` button and navigate to the `companion-module-dev` folder you created in step 1.
 
-Companion will restart and you will now be using the latest version of the OSCPoint module.
+Companion will scan this folder for modules, find the new OSCPoint module and use this instead of the older, built-in version.
 
 ## 3 - Check the module version is correct
 
