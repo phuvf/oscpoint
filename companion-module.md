@@ -10,7 +10,7 @@ The Companion OSCPoint module (listed as **Zinc: OSCPoint**) simplifies the proc
 
 This module is available in builds of Companion v3.2.0+
 
-## Updating the Companion module
+<!-- ## Updating the Companion module
 
 New versions of the OSCPoint Companion module are automatically included in new releases of Companion.
 
@@ -40,7 +40,7 @@ To do this, follow these steps:
 
 - Check what version of the OSCPoint module you're running by launching the Companion GUI and navigating to `Connections`.
 - Scroll down to the `Zinc: OSCPoint` module and click the `i` icon to see the version number.  
-![Module version check](./assets/version-check.png)
+![Module version check](./assets/version-check.png) -->
 
 ### Further actions
 
