@@ -21,8 +21,7 @@ To do this, follow these steps:
 ### 1 - Download the latest module release
 
 1. Navigate to the [GitHub repository](https://github.com/bitfocus/companion-module-zinc-oscpoint.git)
-2. Select `Releases` from the side bar and download the latest release zip file.
-
+2. Select `Releases` from the side bar and download the latest release zip file.  
 ![Download the latest release](./assets/releases.png)
 
 3. Create a `companion-module-dev folder` somewhere on your computer and unzip the contents of the zip file into this folder.
