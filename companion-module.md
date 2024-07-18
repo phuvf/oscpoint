@@ -1,7 +1,7 @@
 # The OSCPoint Companion module
 
 <div align="center">
-<img src="./assets/streamdeck.png" style="max-width: 400px">
+<img src="./assets/streamdeck-flat.png" style="max-width: 400px">
 
 _A sample Streamdeck layout using the Companion OSCPoint module_
 </div>
