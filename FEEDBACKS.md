@@ -62,14 +62,13 @@ Current section name.
 
 - `/oscpoint/slideshow/notes [string: notesText]`  
 Current slide notes (ASCII encoding). Line breaks are normally sent as CR, ASCII 13 (0D in hex).  
-*Note: There's a limit to the length of notes that can be returned by OSC over UDP. I'm not sure exactly what this is (probably limited by the maximum packet size of 64k), but I've tested up to 32,000 characters and notes strings longer than this will be truncated. That's a lot of notes.*
 
 - `/oscpoint/slideshow/notes-utf8 [blob: notesText]` ![v2.0.2+ required](https://img.shields.io/badge/v2.0.2%2B-be3412)  
 Current slide notes in UTF-8 encoding. This is sent as raw bytes and will need decoding by your OSC client.
 
 > [!NOTE] 
-> USe ASCII encoded notes for  quick, easy reading.  
-> Use UTF-8 encoded notes for full international character support, but you'll have to do the decoding yourself (or use the Companion Module, which does this for you).  
+> Use ASCII encoded notes for  quick, easy reading.  
+> Use UTF-8 encoded notes for full international character support, but you'll have to do the decoding yourself - or use the Companion Module, which does this for you.  
 > To avoid busting UDP packet size limits, notes longer than 32,000 characters this will be truncated (that's a lot of notes).
 
 ## Valid only during a slideshow, and when there's a media element on the current slide
