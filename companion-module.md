@@ -20,30 +20,26 @@ To do this, follow these steps:
 
 ### 1 - Download the latest module release
 
-1. Navigate to the [GitHub repository](https://github.com/bitfocus/companion-module-zinc-oscpoint.git)
-2. Select `Releases` from the side bar and download the latest release zip file.  
+- Navigate to the [GitHub repository](https://github.com/bitfocus/companion-module-zinc-oscpoint.git)
+- Select `Releases` from the side bar and download the latest release zip file.  
 ![Download the latest release](./assets/releases.png)
 
-3. Create a `companion-module-dev folder` somewhere on your computer and unzip the contents of the zip file into this folder.
-4. You should end up with the folder structure:  
+- Create a `companion-module-dev folder` somewhere on your computer and unzip the contents of the zip file into this folder.
+- You should end up with the folder structure:  
 `[YOUR CHOSEN LOCATION]/companion-module-dev/companion-module-zinc-oscpoint`
 
 ### 2 - Setup Companion to use the new module
 
+
+- Launch Companion, select the `cog icon` in the top right to show the developer tools.  
+- In the `Developer modules path` section, click the `Select` button and navigate to the `companion-module-dev` folder you created in step 1.
+- Companion will scan this folder for modules, find the new OSCPoint module and use this instead of the older, built-in version.  
 ![Companion Settings](./assets/companion-window.png)
-
-Launch Companion, select the `cog icon` in the top right to show the developer tools.
-
-In the `Developer modules path` section, click the `Select` button and navigate to the `companion-module-dev` folder you created in step 1.
-
-Companion will scan this folder for modules, find the new OSCPoint module and use this instead of the older, built-in version.
 
 ## 3 - Check the module version is correct
 
-Check what version of the OSCPoint module you're running by launching the Companion GUI and navigating to `Connections`.
-
-Scroll down to the `Zinc: OSCPoint` module and click the `i` icon to see the version number.
-
+- Check what version of the OSCPoint module you're running by launching the Companion GUI and navigating to `Connections`.
+- Scroll down to the `Zinc: OSCPoint` module and click the `i` icon to see the version number.  
 ![Module version check](./assets/version-check.png)
 
 ### Further actions
