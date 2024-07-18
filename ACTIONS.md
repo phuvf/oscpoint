@@ -51,6 +51,10 @@ Start slideshow from current slide, based on active (focused) window.
 - `/oscpoint/slideshow/start/section [string: sectionName]`  
 Start slideshow from first slide in section *sectionName*. Will do nothing if *sectionName* is not found.
 
+> [!NOTE]
+> If you're not starting a slideshow from the top of the deck, you may see a flash of slide 1 before the correct slide is shown.  
+> This is a limitation of the PowerPoint object model - set slide 1 to be black to hide this, if necessary. 
+
 - `/oscpoint/slideshow/black [optional integer: n]`  
 Sets black screen overlay. *n* = 1 black on, *n* = 0 black off. If no integer is provided, black screen will toggle.
 
