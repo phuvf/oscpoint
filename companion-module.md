@@ -10,7 +10,7 @@ The Companion OSCPoint module (listed as **Zinc: OSCPoint**) simplifies the proc
 
 This module is available in builds of Companion v3.2.0+
 
-<!-- ## Updating the Companion module
+## Updating the Companion module
 
 New versions of the OSCPoint Companion module are automatically included in new releases of Companion.
 
@@ -18,21 +18,24 @@ However, these only come out a few times a year, so you may wish to manually upd
 
 To do this, follow these steps:
 
-### 1 - Download the latest module release
+### 1 - Setup the module folder
 
-- Navigate to the [GitHub repository](https://github.com/bitfocus/companion-module-zinc-oscpoint.git)
-- Select `Releases` from the side bar and download the latest release zip file.  
-![Download the latest release](./assets/releases.png)
+- Create a folder on your machine to store the module files.  
+This can be anywhere, but for this example we'll use `companion-modules` in my `git` directory.
 
-- Create a `companion-module-dev folder` somewhere on your computer and unzip the contents of the zip file into this folder.
-- You should end up with the folder structure:  
-`[YOUR CHOSEN LOCATION]/companion-module-dev/companion-module-zinc-oscpoint`
+
+### 2 - Download and unzip the latest module package
+
+- Download the latest module version from [https://oscpoint.com/companion](https://oscpoint.com/companion). This will be a `.zip` file.
+- Extract the contents of the `.zip` file into the folder you created in step 1.  
+This will create a structure `companion-modules/oscpoint-module-x.x.x-pkg/`.
+- Inside this folder, you should have a `main.js`, a `package.json` and a subfolder `/companion/`.
 
 ### 2 - Setup Companion to use the new module
 
 
 - Launch Companion, select the `cog icon` in the top right to show the developer tools.  
-- In the `Developer modules path` section, click the `Select` button and navigate to the `companion-module-dev` folder you created in step 1.
+- In the `Developer modules path` section, click the `Select` button and navigate to the `companion-modules` folder you created in step 1.
 - Companion will scan this folder for modules, find the new OSCPoint module and use this instead of the older, built-in version.  
 ![Companion Settings](./assets/companion-window.png)
 
@@ -40,9 +43,9 @@ To do this, follow these steps:
 
 - Check what version of the OSCPoint module you're running by launching the Companion GUI and navigating to `Connections`.
 - Scroll down to the `Zinc: OSCPoint` module and click the `i` icon to see the version number.  
-![Module version check](./assets/version-check.png) -->
+![Module version check](./assets/version-check.png)
 
 ### Further actions
 
 - [Download Companion](https://bitfocus.io/companion)
-- [OSCPoint Companion module on GitHub](https://github.com/bitfocus/companion-module-zinc-oscpoint)
+- [OSCPoint Companion module source code on GitHub](https://github.com/bitfocus/companion-module-zinc-oscpoint)
