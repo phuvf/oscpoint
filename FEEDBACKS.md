@@ -81,15 +81,27 @@ These OSC messages will be emitted once every 500ms while the media is in the `p
 The current state of the media element. Possible values are: `playing`, `paused`, `stopped`, `notready`
 
 - `/oscpoint/slideshow/media/duration [integer: n]`  
-The duration of the media in milliseconds.
+The total duration of the media clip in milliseconds.
+
+- `/oscpoint/slideshow/media/durationtrimmed [integer: n]` ![v2.1+ required](https://img.shields.io/badge/v2.1%2B-be3412)  
+The trimmed duration of the media clip in milliseconds (from the clip's start point to the clip's end point).  
+This will be the same as the total duration if the media clip has not been trimmed.
+
+- `/oscpoint/slideshow/media/startpoint [integer: n]` ![v2.1+ required](https://img.shields.io/badge/v2.1%2B-be3412)  
+The start point of the media clip in milliseconds, measured from the start of the full clip.  
+Will be 0 if the media clip has not been trimmed.
+
+- `/oscpoint/slideshow/media/endpoint [integer: n]` ![v2.1+ required](https://img.shields.io/badge/v2.1%2B-be3412)  
+The end point of the media clip in milliseconds, measured from the start of the full clip.  
+Will be the same as the total duration if the media clip has not been trimmed.
 
 - `/oscpoint/slideshow/media/position [integer: n]`  
-The current position of the media playhead in milliseconds.
+The current position of the media playhead in milliseconds, measured from the start point.
 
 - `/oscpoint/slideshow/media/remaining [integer: n]`  
 The remaining playtime of the media in milliseconds.
 
 > [!NOTE]
-> Media feedbacks do not currently (as of add-in v2.x) report correctly if a media file has been trimmed in PowerPoint. 
+> Media feedbacks do not currently (as of add-in v2.0.x) report correctly if a media file has been trimmed in PowerPoint. 
 > They will report the full duration of the media file, not the trimmed duration.
 > This is a known issue and will be addressed in a future release.
