@@ -25,6 +25,15 @@ Companion has two OSCPoint connections running. To get feedback from both machin
 
 ![One Companion machine, two PowerPoint machines](./assets/connection_examples/three_machines.png)
 
+> [!NOTE]
+> Using three or more machines? Just keep adding connections in Companion and make sure each machine is set to a different feedback port.
+
+## One combined Companion & PowerPoint machine, plus one extra PowerPoint machine
+
+In this configuration, one machine is running Companion, OSCPoint and PowerPoint, and another machine is running PowerPoint & OSCPoint. The machines are connected via a network.
+
+![One Companion machine, two PowerPoint machines](./assets/connection_examples/two_machines_b.png)
+
 ## Broadcasting feedback to multiple machines
 
 In this configuration, multiple machines on the same network are receiving feedback from OSCPoint, by sending OSC messages to the broadcast address - in this case `192.168.0.255`.
