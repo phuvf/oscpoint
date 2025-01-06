@@ -109,7 +109,7 @@ Move playhead to previous bookmark
 > For security reasons, this can only be enabled locally on the PowerPoint machine.
 
 - `/oscpoint/files/setpath [string: path]` ![v2.0.0 + required](https://img.shields.io/badge/v2.0.0%2B-be3412)  
-Set active folder to *path*, realtive to user folder. For example, setting the active folder to `Desktop\myfolder\oscpoint` will mean OSCPoint will look for PowerPoint presentations in `C:\Users\[USERNAME]\Desktop\myfolder\oscpoint`.
+Set active folder to *path*, relative to user folder. For example, setting the active folder to `Desktop\myfolder\oscpoint` will mean OSCPoint will look for PowerPoint presentations in `C:\Users\[USERNAME]\Desktop\myfolder\oscpoint`.
 If this folder does not exist, it will be created.
 
 - `/oscpoint/files/list` ![v2.0.0 + required](https://img.shields.io/badge/v2.0.0%2B-be3412)  
