@@ -23,9 +23,9 @@ Goto to first slide in active slide show.
 Goto to last slide in active slide show.  
 *Note: This will go to the last slide in the presentation even if it's hidden. See [this issue](https://github.com/phuvf/oscpoint/issues/1#issue-1968312581) for details.*
 
-- `/oscpoint/goto/section [string: sectionName]`  
+- `/oscpoint/goto/section [string: sectionName (ASCII)] OR [blob: sectionName (UTF-8)]`   
 Goto to first slide in section *sectionName*. Will do nothing if *sectionName* is not found.  
-*Note: sectionName is case sensitive.*
+*Note: sectionName is case sensitive. UTF-8 support requires v3+.*
 
 - `/oscpoint/slide/hide [integer: n]`  
 Hide slide *n*. Will do nothing if *n* is out-of-range.  
@@ -108,18 +108,21 @@ Move playhead to previous bookmark
 > The *Allow file system access* setting must be enabled in the OSCPoint tab on settings for these actions to work.
 > For security reasons, this can only be enabled locally on the PowerPoint machine.
 
-- `/oscpoint/files/setpath [string: path]` ![v2.0.0 + required](https://img.shields.io/badge/v2.0.0%2B-be3412)  
+- `/oscpoint/files/setpath [string: path (ASCII)] OR [blob: path (UTF-8)]` ![v2.0.0 + required](https://img.shields.io/badge/v2.0.0%2B-be3412)  
 Set active folder to *path*, relative to user folder. For example, setting the active folder to `Desktop\myfolder\oscpoint` will mean OSCPoint will look for PowerPoint presentations in `C:\Users\[USERNAME]\Desktop\myfolder\oscpoint`.
 If this folder does not exist, it will be created.
+*Note: UTF-8 support requires v3+*
 
 - `/oscpoint/files/list` ![v2.0.0 + required](https://img.shields.io/badge/v2.0.0%2B-be3412)  
 Prompt OSCPoint to return a `/oscpoint/v2/files` message with details of files in active folder
 
-- `/oscpoint/files/open [string: filename]` ![v2.0.0 + required](https://img.shields.io/badge/v2.0.0%2B-be3412)  
-Open file (in active folder) with name *filename*. Only files ending in `.ppt` and `.pptx` are supported. Will switch to open presentation if file is already open.
+- `/oscpoint/files/open [string: filename (ASCII)] OR [blob: filename (UTF-8)]` ![v2.0.0 + required](https://img.shields.io/badge/v2.0.0%2B-be3412)  
+Open file (in active folder) with name *filename*. Only files ending in `.ppt` and `.pptx` are supported. Will switch to open presentation if file is already open.  
+*Note: UTF-8 support requires v3+*
 
-- `/oscpoint/presentations/activate [string: filename]` ![v2.0.0 + required](https://img.shields.io/badge/v2.0.0%2B-be3412)  
-Switch to open presentation with name *filename*. If file is not open, will do nothing. Note that this action does not require file access permissions, unlike the `/oscpoint/files/open` action.
+- `/oscpoint/presentations/activate [string: filename (ASCII)] OR [blob: filename (UTF-8)]` ![v2.0.0 + required](https://img.shields.io/badge/v2.0.0%2B-be3412)  
+Switch to open presentation with name *filename*. If file is not open, will do nothing. Note that this action does not require file access permissions, unlike the `/oscpoint/files/open` action.  
+*Note: UTF-8 support requires v3+*
 
 ### Closing a file
 
@@ -128,17 +131,20 @@ When closing a file with unsaved changes, a decision needs to be made as to what
 > [!WARNING] 
 > The `/oscpoint/files/close` group of actions can overwrite files and/or lose unsaved file edits without warning. Use with caution.
 
-- `/oscpoint/files/close [optional string: filename]` ![v2.0.1+ required](https://img.shields.io/badge/v2.0.1%2B-0e3412)  
+- `/oscpoint/files/close [optional string: filename (ASCII)] OR [optional blob: filename (UTF-8)]` ![v2.0.1+ required](https://img.shields.io/badge/v2.0.1%2B-0e3412)  
 Close open presentation *filename*, or the active presentation if no filename specified.  
-Action when file has unsaved changes:  **abort**  - action will cancel and file will not close. It is not generally advise to use this method - see note below for more details.
+Action when file has unsaved changes:  **abort**  - action will cancel and file will not close. It is not generally advise to use this method - see note below for more details.  
+*Note: UTF-8 support requires v3+*
 
-- `/oscpoint/files/close/force [optional string: filename]` ![v2.0.1+ required](https://img.shields.io/badge/v2.0.1%2B-0e3412)  
+- `/oscpoint/files/close/force [optional string: filename (ASCII)] OR [optional blob: filename (UTF-8)]` ![v2.0.1+ required](https://img.shields.io/badge/v2.0.1%2B-0e3412)  
 Close open presentation *filename*, or the active presentation if no filename specified.  
-Action when file has unsaved changes:  **force close**  - unsaved changes are discarded and file is closed.
+Action when file has unsaved changes:  **force close**  - unsaved changes are discarded and file is closed.  
+*Note: UTF-8 support requires v3+*
 
-- `/oscpoint/files/close/save [optional string: filename]` ![v2.0.1+ required](https://img.shields.io/badge/v2.0.1%2B-0e3412)  
+- `/oscpoint/files/close/save [optional string: filename (ASCII)] OR [optional blob: filename (UTF-8)]` ![v2.0.1+ required](https://img.shields.io/badge/v2.0.1%2B-0e3412)  
 Close open presentation *filename*, or the active presentation if no filename specified.  
 Action when file has unsaved changes:  **save and close**  - unsaved changes are saved and file is closed. This will overwrite the existing file.
+*Note: UTF-8 support requires v3+*
 
 >[!NOTE]
 > Due to the way OSCPoint calculates the starting slide information, starting a slide show will cause the file to be maked as unsaved.
