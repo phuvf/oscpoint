@@ -4,7 +4,7 @@ Feedbacks are the messages OSCPoint sends to your OSC client to tell you about t
 
 > [!NOTE] 
 > 
-> Feedbacks starting with `/oscpoint/v2/` are new in version 2.x of OSCPoint.
+> Feedbacks starting with `/oscpoint/v2/` are new in version 2.x of OSCPoint. UTF-8 support requires v3.x.
 
 ## Valid at any time
 
@@ -15,15 +15,18 @@ See [EVENTS.md](EVENTS.md) for a full list of events and arguments from this mes
 List of all presentations currently open in PowerPoint. Includes the name, path, slide count, and whether the presentation is saved and in slide show mode. Also includes a full list of the individual sections that make up the presentation.  
 For an example of the JSON structure, see [PRESENTATION.md](PRESENTATION.md).
 
-- `/oscpoint/v2/presentation [string: JSON presentation object]`
+- `/oscpoint/v2/presentation [string: JSON presentation object ASCII] [blob: JSON presentation object UTF-8]`
 The current presentation object. Includes the name, path, slide count, and whether the presentation is saved and in slide show mode. Also includes a full list of the individual sections that make up the presentation.  
 If no presentation is open, this message include a blank presentation object:  
     ```json
     {"name":"","path":"","slideCount":0,"saved":false,"active":false,"slideshow":false,"sections":null}
     ```
 
-- `/oscpoint/v2/files/path [string: path]`  
+- `/oscpoint/v2/files/activefolder [string: path ASCII] [blob: path UTF-8]`  
   The path to the OSCPoint folder, relative to the user's home directory. For more details about this feature, see [FILES.md](FILES.md).
+
+  - `/oscpoint/v2/files/activefolder/fullpath [string: path ASCII] [blob: path UTF-8]`  
+  The full path to the OSCPoint folder. For more details about this feature, see [FILES.md](FILES.md).
 
 
 
@@ -31,7 +34,7 @@ If no presentation is open, this message include a blank presentation object:
 
 *Note: These feedbacks will switch values with focus changes if multiple presentations are open.*
 
-- `/oscpoint/presentation/name [string: presentationFileName]`  
+- `/oscpoint/presentation/name [string: presentationFileName ASCII] [blob: presentationFileName UTF-8]`  
 Current presentation filename.
 
 - `/oscpoint/presentation/slides/count [integer: n]`  
@@ -57,13 +60,13 @@ The number of builds remaining on the current slide.
 - `/oscpoint/slideshow/section/index [integer: n]`  
 Current section index (1-based).
 
-- `/oscpoint/slideshow/section/name [string: sectionName]`  
+- `/oscpoint/slideshow/section/name [string: sectionName ASCII] [blob: sectionName UTF-8]`  
 Current section name.
 
 - `/oscpoint/slideshow/notes [string: notesText]`  
 Current slide notes (ASCII encoding). Line breaks are normally sent as CR, ASCII 13 (0D in hex).  
 
-- `/oscpoint/slideshow/notes-utf8 [blob: notesText]` ![v2.0.2+ required](https://img.shields.io/badge/v2.0.2%2B-be3412)  
+- `/oscpoint/slideshow/notes-utf8 [blob: notesText UTF-8]` ![v2.0.2+ required](https://img.shields.io/badge/v2.0.2%2B-be3412)  
 Current slide notes in UTF-8 encoding. This is sent as raw bytes and will need decoding by your OSC client.
 
 > [!NOTE] 
