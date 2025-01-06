@@ -4,6 +4,10 @@ OSC actions are messages you can send to OSCPoint to control PowerPoint. These m
 
 OSC bundles are supported, but have not been extensively tested.
 
+> [!NOTE] 
+> OSC string arguments only support ASCII characters - so as of v3.0.0 it's possible to send UTF-8 strings as encoded binary blobs. When OSCPoint receives a message it'll detect the type of argument being sent, and any binary blob data will be assumed to be UTF-8 encoded text.  
+> Send either a string or a blob - not both!
+
 ## Slide control
 
 - `/oscpoint/next`  
