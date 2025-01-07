@@ -42,6 +42,9 @@ Current presentation filename.
 - `/oscpoint/presentation/slides/count [integer: n]`  
 Total number of slides in presentation.
 
+- `/oscpoint/presentation/slides/count/visible [integer: n]` ![v2.1+ required](https://img.shields.io/badge/v2.1%2B-fe3412)  
+Total slide count, excluding hidden slides.
+
 - `/oscpoint/slideshow/state [string stateName]`  
 The current state of the presentation. Possible values are: `edit` or `slideshow` 
   
@@ -59,11 +62,17 @@ The total number of builds on the current slide.
 - `/oscpoint/slideshow/builds/remaining [integer: n]`  
 The number of builds remaining on the current slide.
 
-- `/oscpoint/slideshow/section/index [integer: n]`  
-Current section index (1-based).
+- `/oscpoint/slideshow/builds/remaining [integer: n]`  
+The number of builds remaining on the current slide.
+
+- `/oscpoint/slideshow/slidesremaining [integer: n]`  ![v2.1+ required](https://img.shields.io/badge/v2.1%2B-fe3412)  
+Number of slides left in presentation (excluding hidden slides)
 
 - `/oscpoint/slideshow/section/name [string: sectionName ASCII] [blob: sectionName UTF-8]`  
 Current section name.
+
+- `/oscpoint/slideshow/section/slidesremaining [integer: n]`  ![v2.1+ required](https://img.shields.io/badge/v2.1%2B-fe3412)  
+Number of slides left in section (excluding hidden slides). 
 
 - `/oscpoint/slideshow/notes [string: notesText]`  
 Current slide notes (ASCII encoding). Line breaks are normally sent as CR, ASCII 13 (0D in hex).  
@@ -72,7 +81,7 @@ Current slide notes (ASCII encoding). Line breaks are normally sent as CR, ASCII
 Current slide notes in UTF-8 encoding. This is sent as raw bytes and will need decoding by your OSC client.
 
 > [!NOTE] 
-> Use ASCII encoded notes for  quick, easy reading.  
+> ASCII encoded notes for  quick, easy reading.  
 > Use UTF-8 encoded notes for full international character support, but you'll have to do the decoding yourself - or use the Companion Module, which does this for you.  
 > To avoid busting UDP packet size limits, notes longer than 32,000 characters this will be truncated (that's a lot of notes).
 
@@ -88,15 +97,15 @@ The current state of the media element. Possible values are: `playing`, `paused`
 - `/oscpoint/slideshow/media/duration [integer: n]`  
 The total duration of the media clip in milliseconds.
 
-- `/oscpoint/slideshow/media/durationtrimmed [integer: n]` ![v2.1+ required](https://img.shields.io/badge/v2.1%2B-be3412)  
+- `/oscpoint/slideshow/media/durationtrimmed [integer: n]` ![v2.1+ required](https://img.shields.io/badge/v2.1%2B-fe3412)  
 The trimmed duration of the media clip in milliseconds (from the clip's start point to the clip's end point).  
 This will be the same as the total duration if the media clip has not been trimmed.
 
-- `/oscpoint/slideshow/media/startpoint [integer: n]` ![v2.1+ required](https://img.shields.io/badge/v2.1%2B-be3412)  
+- `/oscpoint/slideshow/media/startpoint [integer: n]` ![v2.1+ required](https://img.shields.io/badge/v2.1%2B-fe3412)  
 The start point of the media clip in milliseconds, measured from the start of the full clip.  
 Will be 0 if the media clip has not been trimmed.
 
-- `/oscpoint/slideshow/media/endpoint [integer: n]` ![v2.1+ required](https://img.shields.io/badge/v2.1%2B-be3412)  
+- `/oscpoint/slideshow/media/endpoint [integer: n]` ![v2.1+ required](https://img.shields.io/badge/v2.1%2B-fe3412)  
 The end point of the media clip in milliseconds, measured from the start of the full clip.  
 Will be the same as the total duration if the media clip has not been trimmed.
 
