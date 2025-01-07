@@ -68,12 +68,6 @@ The number of builds remaining on the current slide.
 - `/oscpoint/slideshow/slidesremaining [integer: n]`  ![v2.1+ required](https://img.shields.io/badge/v2.1%2B-fe3412)  
 Number of slides left in presentation (excluding hidden slides)
 
-- `/oscpoint/slideshow/section/name [string: sectionName ASCII] [blob: sectionName UTF-8]`  
-Current section name.
-
-- `/oscpoint/slideshow/section/slidesremaining [integer: n]`  ![v2.1+ required](https://img.shields.io/badge/v2.1%2B-fe3412)  
-Number of slides left in section (excluding hidden slides). 
-
 - `/oscpoint/slideshow/notes [string: notesText]`  
 Current slide notes (ASCII encoding). Line breaks are normally sent as CR, ASCII 13 (0D in hex).  
 
@@ -84,6 +78,17 @@ Current slide notes in UTF-8 encoding. This is sent as raw bytes and will need d
 > ASCII encoded notes for  quick, easy reading.  
 > Use UTF-8 encoded notes for full international character support, but you'll have to do the decoding yourself - or use the Companion Module, which does this for you.  
 > To avoid busting UDP packet size limits, notes longer than 32,000 characters this will be truncated (that's a lot of notes).
+
+### Section info
+
+- `/oscpoint/slideshow/section/index [integer: n]`  
+Current section index (1-based).
+
+- `/oscpoint/slideshow/section/name [string: sectionName ASCII] [blob: sectionName UTF-8]`  
+Current section name.
+
+- `/oscpoint/slideshow/section/slidesremaining [integer: n]`  ![v2.1+ required](https://img.shields.io/badge/v2.1%2B-fe3412)  
+Number of slides left in section (excluding hidden slides).
 
 ## Valid only during a slideshow, and when there's a media element on the current slide
 
