@@ -21,11 +21,13 @@ If no presentation is open, this message include a blank presentation object:
     ```json
     {"name":"","path":"","slideCount":0,"saved":false,"active":false,"slideshow":false,"sections":null}
     ```
+- `/oscpoint/v2/files/enabled [boolean]`  
+  Reports whether OSCPoint has permission to access the file system of the PowerPoint machine. This can only be enabled via the OSCPoint ribbon in PowerPoint.
 
 - `/oscpoint/v2/files/activefolder [string: path ASCII] [blob: path UTF-8]`  
   The path to the OSCPoint folder, relative to the user's home directory. For more details about this feature, see [FILES.md](FILES.md).
 
-  - `/oscpoint/v2/files/activefolder/fullpath [string: path ASCII] [blob: path UTF-8]`  
+- `/oscpoint/v2/files/activefolder/fullpath [string: path ASCII] [blob: path UTF-8]`  
   The full path to the OSCPoint folder. For more details about this feature, see [FILES.md](FILES.md).
 
 
