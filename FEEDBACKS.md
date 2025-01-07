@@ -66,7 +66,7 @@ The number of builds remaining on the current slide.
 The number of builds remaining on the current slide.
 
 - `/oscpoint/slideshow/slidesremaining [integer: n]`  ![v2.1+ required](https://img.shields.io/badge/v2.1%2B-fe3412)  
-Number of slides left in presentation (excluding hidden slides)
+Number of slides left in slide show, excluding hidden slides.
 
 - `/oscpoint/slideshow/notes [string: notesText]`  
 Current slide notes (ASCII encoding). Line breaks are normally sent as CR, ASCII 13 (0D in hex).  
@@ -88,7 +88,7 @@ Current section index (1-based).
 Current section name.
 
 - `/oscpoint/slideshow/section/slidesremaining [integer: n]`  ![v2.1+ required](https://img.shields.io/badge/v2.1%2B-fe3412)  
-Number of slides left in section (excluding hidden slides).
+Number of slides left in section, excluding hidden slides.
 
 ## Valid only during a slideshow, and when there's a media element on the current slide
 
