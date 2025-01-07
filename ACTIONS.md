@@ -88,10 +88,10 @@ Will toggle between play and pause states.
 Stops playback and sets playhead to start of media
 
 - `/oscpoint/media/goto/position/fromstart [integer: n]`  
-Move playhead to position *n* milliseconds from start of clip.
+Move playhead to position *n* milliseconds from start point of clip.
 
 - `/oscpoint/media/goto/position/beforeend [integer: n]`    
-Move playhead to position *n* milliseconds before end of clip.
+Move playhead to position *n* milliseconds before end point of clip.
 
 - `/oscpoint/media/goto/position/forward [integer: n]`  
 Move playhead forward *n* milliseconds from current position.
@@ -100,7 +100,7 @@ Move playhead forward *n* milliseconds from current position.
 Move playhead backward *n* milliseconds from current position.
 
 - `/oscpoint/media/goto/position/percent [float: f]`  
-Move playhead to position *f* percent from start of clip.
+Move playhead to position *f* percent from start point of clip.
 
 - `/oscpoint/media/goto/bookmark/next`  
 Move playhead to next bookmark.
