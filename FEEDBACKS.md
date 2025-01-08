@@ -46,7 +46,7 @@ Total number of slides in presentation.
 Total slide count, excluding hidden slides.
 
 - `/oscpoint/slideshow/state [string stateName]`  
-The current state of the presentation. Possible values are: `edit` or `slideshow` 
+The current state of the presentation. Possible values are: `edit` or `slideshow` (as of v2.1.x: `edit`, `running`, `paused`)
   
 ## Valid only during a slide show
 
