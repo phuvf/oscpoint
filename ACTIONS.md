@@ -75,6 +75,12 @@ Sets the current slide as the desktop wallpaper.
   - Exports current slide to temporary folder at resolution `width` x `height` px. Will default to 1920x1080 if no width and height are provided.
   - Sets exported image as fill-style wallpaper for all monitors on machine.
 
+- `/oscpoint/slideshow/pause` ![v2.1+ required](https://img.shields.io/badge/v2.1%2B-fe3412)  
+Pause slide show timed auto-advance
+
+- `/oscpoint/slideshow/resume` ![v2.1+ required](https://img.shields.io/badge/v2.1%2B-fe3412)  
+Resume slide show auto-advance
+
 ## Media control
 
 *Due to the way PowerPoint handles media, these actions will only work if you're in slideshow mode and there's a single media element on the current slide.*
