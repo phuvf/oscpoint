@@ -4,7 +4,7 @@ Feedbacks are the messages OSCPoint sends to your OSC client to tell you about t
 
 > [!NOTE] 
 > 
-> Feedbacks starting with `/oscpoint/v2/` are new in version 2.x of OSCPoint. UTF-8 support requires v3.x.
+> Feedbacks starting with `/oscpoint/v2/` are new in version 2.x of OSCPoint. UTF-8 support requires v2.1.x.
 
 ## Valid at any time
 
