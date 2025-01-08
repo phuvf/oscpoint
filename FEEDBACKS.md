@@ -78,7 +78,7 @@ Current slide notes (ASCII encoding). Line breaks are normally sent as CR, ASCII
 Current slide notes in UTF-8 encoding. This is sent as raw bytes and will need decoding by your OSC client.
 
 > [!NOTE] 
-> ASCII encoded notes for  quick, easy reading.  
+> ASCII-encoded notes might be deprecated in future versions.
 > Use UTF-8 encoded notes for full international character support, but you'll have to do the decoding yourself - or use the Companion Module, which does this for you.  
 > To avoid busting UDP packet size limits, notes longer than 32,000 characters this will be truncated (that's a lot of notes).
 
