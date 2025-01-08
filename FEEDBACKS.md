@@ -122,8 +122,3 @@ The current position of the media playhead in milliseconds, measured from the st
 
 - `/oscpoint/slideshow/media/remaining [integer: n]`  
 The remaining playtime (up to the end point) of the media in milliseconds.
-
-> [!NOTE]
-> Media feedbacks do not currently (as of add-in v2.0.x) report correctly if a media file has been trimmed in PowerPoint. 
-> They will report the full duration of the media file, not the trimmed duration.
-> This is a known issue and will be addressed in a future release.
