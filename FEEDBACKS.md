@@ -50,6 +50,9 @@ The current state of the presentation. Possible values are: `edit` or `slideshow
   
 ## Valid only during a slide show
 
+> [!NOTE] 
+> These feedbacks may not update correctly when a slide show is auto-advancing. This is a known issue: https://github.com/phuvf/oscpoint/issues/67
+
 - `/oscpoint/slideshow/currentslide [integer: n]`  
 Current slide number (1-based).
 
