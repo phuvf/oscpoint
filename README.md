@@ -12,7 +12,7 @@ While the add-in is designed to be used with BitFocus Companion, it should work 
 ## Quick actions
 
  - Download the [latest version of the add-in](https://oscpoint.com/donate)
- - Documentation links:  [Actions](ACTIONS.md) | [Feedbacks](FEEDBACKS.md) | [Setup examples](SETUP-EXAMPLES.md) | [Companion module](companion-module.md)
+ - Documentation links:  [Actions](ACTIONS.md) | [Feedbacks](FEEDBACKS.md) | [Setup examples](EXAMPLES.md) | [Companion module](companion-module.md)
  - See some [configuration examples](CONFIGURATION.md)
 
 ## The add-in
