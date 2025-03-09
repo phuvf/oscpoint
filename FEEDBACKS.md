@@ -65,9 +65,6 @@ The total number of builds on the current slide.
 - `/oscpoint/slideshow/builds/remaining [integer: n]`  
 The number of builds remaining on the current slide.
 
-- `/oscpoint/slideshow/builds/remaining [integer: n]`  
-The number of builds remaining on the current slide.
-
 - `/oscpoint/slideshow/slidesremaining [integer: n]`  ![v2.1+ required](https://img.shields.io/badge/v2.1%2B-fe3412)  
 Number of slides left in slide show, excluding hidden slides.
 
