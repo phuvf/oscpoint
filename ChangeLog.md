@@ -1,5 +1,14 @@
 # OSCPoint Change log
 
+## 2.1.0.0
+
+- Better setting persistance when upgrading
+- More UTF-8 support
+- Better section handling
+- Ability to pause/resume auto-advancing slide show
+- Support for media start/end points
+- Better reporting/handling of hidden slides
+
 ## 2.0.2.0
 
 - Added UTF8 support for notes

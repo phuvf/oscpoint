@@ -57,6 +57,8 @@ _Screenshot shows the trigger setup in Companion_
 
 There's currently no way (that I know of) to adjust text size via the vMix API. This means that if you have a lot of text in your notes, it may overflow the text box. You can get around this by using a second title input with a smaller, and then switching between the two inputs as needed.
 
+> richardgatarski has written with some ideas on this - check https://github.com/phuvf/oscpoint/issues/54 for details
+
 This could be automated by looking at the length of the notes text, and switching to the smaller input if it's over a certain length.
 
 Ultimately, at some point it'd be better to use IrisDown's [dNotes](https://www.irisdown.co.uk/) software to display notes as this handles font-sizing much better.
