@@ -1,5 +1,9 @@
 # OSCPoint Change log
 
+## 2.2.1.0
+Released 2026-01-30
+- Fixed issue where ribbon settings (for example, file access toggle) not saving correctly when changed.
+
 ## 2.2.0.0
 Released 2026-01-17
 - Fixed issue where ending slide show using e.g. ESC key did not trigger all required OSC messages.
