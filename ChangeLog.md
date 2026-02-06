@@ -1,5 +1,10 @@
 # OSCPoint Change log
 
+## 2.3.0.0
+Released 2026-02-06
+- Better error catching and logging for startup events - to help with debugging startup failures (and subsequent disabling by PowerPoint)
+- Startup errors now written to `{yyyyMMdd_HHmmss}_startup-error.log` in `%appdata%/OSCPoint/logs`
+
 ## 2.2.1.0
 Released 2026-01-30
 - Fixed issue where ribbon settings (for example, file access toggle) not saving correctly when changed.
