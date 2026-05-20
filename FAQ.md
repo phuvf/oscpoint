@@ -28,3 +28,23 @@ Here's a (slightly tidied up) analysis from CoPilot:
 I'm not saying that it's impossible to write a tool similar to OSCPoint for PowerPoint on macOS - just that's it's a whole new challenge I'm not interested in investigating.
 
 If someone else wants to give it a go, they're welcome to use the same OSC schema as OSCPoint - this would mean the Companion module would work with both.
+
+## Can I control Presenter View?
+
+The **PowerPoint Object Model** is surprisingly quiet when it comes to Presenter View. In particular, I've not found any way to:
+
+- Switch in/out of presenter view
+- Control the presenter view clock
+- Control the split between current slide/next slide/notes
+- Control the notes text size
+- Scroll the notes
+
+Some of these actions could be performed using keyboard emulation - and there's several tools on the market that could help with this.
+
+As these actions cannot be performed natively, OSCPoint is not going to support them.
+
+> [!Note]
+> Think you've found a way to do this without keyboard emulation?
+> Great! Let me know - I'd be interested to find out more.
+
+
